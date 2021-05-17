@@ -1,4 +1,8 @@
 .homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
   background-image: url('../images/houston.jpg');
   height: 85vh;
   width: auto;
@@ -6,16 +10,12 @@
   background-attachment: fixed;
   background-size: cover;
 }
-.homepage .hero {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  height: 90vh;
-}
 .homepage .hero h1 {
   font-size: 2rem;
+  color: black;
+}
+.homepage .hero h4 {
+  color: black;
 }
 .homepage .hero button {
   border: none;
