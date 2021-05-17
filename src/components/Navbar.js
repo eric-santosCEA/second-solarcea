@@ -1,4 +1,5 @@
 import React from 'react'
+import { BiMenuAltLeft } from 'react-icons/bi'
 import '../styles/navbar.css'
 import { Link } from 'react-router-dom'
 
@@ -16,6 +17,7 @@ const Navbar = () => {
       <Link to="sales-partner" className="link">
         Sales Partner
       </Link>
+      <BiMenuAltLeft className="icon" size="3rem" />
     </nav>
   )
 }
