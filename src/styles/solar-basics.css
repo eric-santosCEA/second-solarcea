@@ -1,0 +1,9 @@
+.basics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.basics h1 {
+  color: black;
+}

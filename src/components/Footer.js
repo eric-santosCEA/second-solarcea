@@ -3,9 +3,13 @@ import '../styles/footer.css'
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <footer>Footer</footer>
-    </div>
+    <footer>
+      <ul>
+        <li>Our Work</li>
+        <li>Contact Us</li>
+        <li>Hiring</li>
+      </ul>
+    </footer>
   )
 }
 export default Footer
