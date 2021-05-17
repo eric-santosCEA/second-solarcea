@@ -27,6 +27,9 @@
 .quote figure blockquote p::after {
   content: '\201D';
 }
+.lower {
+  margin-bottom: 1rem;
+}
 picture {
   display: flex;
   justify-content: center;

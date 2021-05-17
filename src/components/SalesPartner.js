@@ -26,7 +26,7 @@ const SalesPartner = () => {
       <picture>
         <img src="./photos/ferris-wheel.jpg" alt="houston" />
       </picture>
-      <div className="quote">
+      <div className="quote lower">
         <figure>
           <blockquote>
             <p>
