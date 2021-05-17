@@ -1,0 +1,28 @@
+.main {
+  height: 100vh;
+}
+.main .contact {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  border-bottom: 1px solid black;
+  margin-top: 2rem;
+}
+.main .contact .icon {
+  margin-top: 1rem;
+}
+.main .contact p {
+  flex-flow: row wrap;
+}
+.main .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.main .social-icons a {
+  color: black;
+}
