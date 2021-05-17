@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React from 'react'
 import '../styles/home.css'
 
 const Home = () => {
