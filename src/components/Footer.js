@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link to="Hiring" className="link">
+          <Link to="hiring" className="link">
             Hiring
           </Link>
         </li>

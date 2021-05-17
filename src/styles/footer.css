@@ -15,5 +15,6 @@ footer ul li {
 }
 footer ul li .link {
   text-decoration: none;
+  font-family: Montserrat-alternates, sans-serif;
   color: whitesmoke;
 }
