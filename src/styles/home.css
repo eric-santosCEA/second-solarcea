@@ -1,188 +1,6 @@
-@font-face {
-  font-family: 'Asap';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylUANW3s.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylXINW3s.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylZ4KW3s.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylacKW3s.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsE61qhO.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsEI1qhO.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsHk0ahO.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Asap';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsHd0ahO.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTjWacfw6zH4dthXcyms1lPpC8I_b0juU057p-xIJw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p8dAbxD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p95ArxD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFThWacfw6zH4dthXcyms1lPpC8I_b0juU057qfV.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p8hA7xD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p8NBLxD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p9pBbxD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p91BrxD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p9RB7xD.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFThWacfw6zH4dthXcyms1lPpC8I_b0juU0xiKfV.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xJIb1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xQIX1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTvWacfw6zH4dthXcyms1lPpC8I_b0juU0J7A.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xGIT1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xNIP1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUIL1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xTIH1AA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xaID1AA.ttf) format('truetype');
-}
 .homepage {
   background-image: url('../images/houston.jpg');
-  height: 90vh;
+  height: 85vh;
   width: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -196,18 +14,17 @@
   color: white;
   height: 90vh;
 }
+.homepage .hero h1 {
+  font-size: 2rem;
+}
 .homepage .hero button {
   border: none;
   background-color: green;
-  height: 2rem;
-  width: auto;
+  height: 3rem;
+  width: 10rem;
   border-radius: 10%;
   color: whitesmoke;
-  font-family: Montserrat-alternates, sans-serif;
-}
-.homepage .hero h1 {
-  font-family: Asap, sans-serif;
-}
-.homepage .hero p {
-  font-family: Montserrat-alternates, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
 }

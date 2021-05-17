@@ -6,7 +6,9 @@ const Home = () => {
     <div className="homepage">
       <section className="hero">
         <h1>Clean Energy America</h1>
-        <p>FOR A BETTER TOMORROW, CLEAN ENERGY TODAY.</p>
+        <h4>
+          FOR A BETTER TOMORROW, <br /> CLEAN ENERGY TODAY.
+        </h4>
         <button>Join CEA!</button>
       </section>
     </div>
