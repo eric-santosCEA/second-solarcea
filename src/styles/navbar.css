@@ -1,0 +1,21 @@
+nav {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 10vh;
+  margin: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+nav ul li {
+  margin: 0 2rem;
+  list-style: none;
+}
+nav ul li .link {
+  text-decoration: none;
+  color: black;
+}
