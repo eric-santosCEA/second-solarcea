@@ -1,6 +1,7 @@
 nav {
   background-color: #33383e;
   display: flex;
+  justify-content: space-between;
   height: 3rem;
 }
 nav .link {
@@ -14,6 +15,5 @@ nav .link {
 }
 nav .icon {
   display: flex;
-  justify-content: flex-end;
   color: whitesmoke;
 }

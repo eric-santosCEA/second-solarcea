@@ -1,13 +1,16 @@
 import React from 'react'
-import { BiMenuAltLeft } from 'react-icons/bi'
+import { BiMenuAltRight } from 'react-icons/bi'
 import '../styles/navbar.css'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav>
+      <Link to="/">
+        <img src="./photos/logo.png" alt="logo" height="50px" />
+      </Link>
       <Link to="/" className="link">
-        Logo Home
+        Home
       </Link>
 
       <Link to="solar-basics" className="link">
@@ -17,7 +20,7 @@ const Navbar = () => {
       <Link to="sales-partner" className="link">
         Sales Partner
       </Link>
-      <BiMenuAltLeft className="icon" size="3rem" />
+      <BiMenuAltRight className="icon" size="3rem" />
     </nav>
   )
 }
