@@ -10,10 +10,8 @@ const SalesPartner = () => {
           <a href="https://clean-energy-america.estimate.demand-iq.com/">
             <button className="btn">Get A Solar Quote!</button>
           </a>
-          <a href="https://ceadash.com/application/">
-            <button className="btn">Become A Sales Partner</button>
-          </a>
         </section>
+
         <figure>
           <blockquote>
             <p>
@@ -26,6 +24,11 @@ const SalesPartner = () => {
       <picture>
         <img src="./photos/ferris-wheel.jpg" alt="houston" />
       </picture>
+      <section className="buttons">
+        <a href="https://ceadash.com/application/">
+          <button className="btn">Become A Sales Partner</button>
+        </a>
+      </section>
       <div className="quote lower">
         <figure>
           <blockquote>
