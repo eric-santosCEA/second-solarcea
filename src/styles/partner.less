@@ -1,9 +1,59 @@
-.partner {
+.quote {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 90vh;
+  align-items: center;
+  flex-flow: column;
   h1 {
+    margin-top: 1rem;
+  }
+  figure {
     color: black;
+    margin-top: 1rem;
+
+    max-width: 90%;
+    blockquote {
+      margin: 0;
+    }
+
+    blockquote p {
+      padding: 15px;
+      background: #eee;
+      border-radius: 5px;
+      font-family: Montserrat-alternates, sans-serif;
+    }
+
+    blockquote p::before {
+      content: '\201C';
+    }
+
+    blockquote p::after {
+      content: '\201D';
+    }
+  }
+}
+
+picture {
+  display: flex;
+  justify-content: center;
+  img {
+    margin-top: 1rem;
+    max-width: 90%;
+    border-radius: 10%;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 1rem;
+  .btn {
+    margin: 0 0.5rem;
+    border-radius: 20%;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    height: 2rem;
   }
 }

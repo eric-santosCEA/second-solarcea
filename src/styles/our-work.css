@@ -1,6 +1,6 @@
 .work {
   display: flex;
-  height: 175vh;
+  height: 200vh;
   align-items: center;
   flex-flow: column wrap;
 }
@@ -34,8 +34,22 @@
 .work .images picture {
   display: flex;
   justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }
 .work .images picture img {
   margin-top: 1rem;
   max-width: 90%;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+}
+.work .images picture .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 1rem 0 0 0;
+}
+.work .images picture .content h4 {
+  margin-left: 1rem;
 }

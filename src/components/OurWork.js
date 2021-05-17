@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaSolarPanel } from 'react-icons/fa'
+import { FiSun } from 'react-icons/fi'
+import { BsHouseDoor } from 'react-icons/bs'
 import '../styles/our-work.css'
 
 const OurWork = () => {
@@ -16,6 +19,10 @@ const OurWork = () => {
 
       <div className="images">
         <picture>
+          <div className="content">
+            <FaSolarPanel />
+            <h4>Katy, TX</h4>
+          </div>
           <img
             srcSet="./photos/ferris-wheel.jpg 1440w"
             sizes="(max-width: 600px) 1440px"
@@ -25,6 +32,10 @@ const OurWork = () => {
         </picture>
 
         <picture>
+          <div className="content">
+            <FiSun />
+            <h4>El Paso, TX</h4>
+          </div>
           <img
             srcSet="./photos/ferris-wheel.jpg 1440w"
             sizes="(max-width: 600px) 1440px"
@@ -33,6 +44,10 @@ const OurWork = () => {
           />
         </picture>
         <picture>
+          <div className="content">
+            <BsHouseDoor />
+            <h4>Houston, TX</h4>
+          </div>
           <img
             srcSet="./photos/ferris-wheel.jpg 1440w"
             sizes="(max-width: 600px) 1440px"
