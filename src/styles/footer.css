@@ -12,5 +12,8 @@ footer ul {
 }
 footer ul li {
   list-style: none;
+}
+footer ul li .link {
+  text-decoration: none;
   color: whitesmoke;
 }

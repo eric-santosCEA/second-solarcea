@@ -4,7 +4,12 @@ import '../styles/our-work.css'
 const OurWork = () => {
   return (
     <div className="work">
-      <h1>Our Work</h1>
+      <section>
+        <h1>Houston</h1>
+        <h1>Houston</h1>
+        <h1>Houston</h1>
+        <h1>Houston</h1>
+      </section>
     </div>
   )
 }
