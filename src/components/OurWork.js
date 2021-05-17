@@ -24,9 +24,9 @@ const OurWork = () => {
             <h4>Katy, TX</h4>
           </div>
           <img
-            srcSet="./photos/ferris-wheel.jpg 1440w"
+            srcSet="./photos/katy1.png 1440w"
             sizes="(max-width: 600px) 1440px"
-            src="./photos/ferris-wheel.jpg"
+            src="./photos/katy1.png"
             alt="third img"
           />
         </picture>
@@ -37,9 +37,15 @@ const OurWork = () => {
             <h4>El Paso, TX</h4>
           </div>
           <img
-            srcSet="./photos/ferris-wheel.jpg 1440w"
+            srcSet="./photos/houston1.png 1440w"
             sizes="(max-width: 600px) 1440px"
-            src="./photos/ferris-wheel.jpg"
+            src="./photos/houston1.png"
+            alt="third img"
+          />
+          <img
+            srcSet="./photos/houston2.png 1440w"
+            sizes="(max-width: 600px) 1440px"
+            src="./photos/houston2.png"
             alt="third img"
           />
         </picture>
@@ -49,9 +55,15 @@ const OurWork = () => {
             <h4>Houston, TX</h4>
           </div>
           <img
-            srcSet="./photos/ferris-wheel.jpg 1440w"
+            srcSet="./photos/elpaso1.png 1440w"
             sizes="(max-width: 600px) 1440px"
-            src="./photos/ferris-wheel.jpg"
+            src="./photos/elpaso1.png"
+            alt="third img"
+          />
+          <img
+            srcSet="./photos/elpaso2.png 1440w"
+            sizes="(max-width: 600px) 1440px"
+            src="./photos/elpaso2.png"
             alt="third img"
           />
         </picture>

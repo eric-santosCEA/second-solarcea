@@ -13,8 +13,8 @@ const Footer = () => {
         Contact Us
       </Link>
 
-      <Link to="hiring" className="link">
-        Hiring
+      <Link to="sales-partner" className="link">
+        Careers
       </Link>
     </footer>
   )

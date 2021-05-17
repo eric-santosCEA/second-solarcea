@@ -29,7 +29,7 @@ const Contact = () => {
       <address className="contact">
         <GoLocation size="2rem" color="green" className="icon" />
         <h3>Address:</h3>
-        <p>6600 N Mesa St STE 502, El Paso, TX 79912</p>
+        <p>13105 Northwest Freeway, Suite 1260, Houston TX 77040</p>
         <AiOutlinePhone size="2rem" color="green" className="icon" />
         <h3>
           Phone: <a href="tel: +9152012631">(915) 201 2631</a>

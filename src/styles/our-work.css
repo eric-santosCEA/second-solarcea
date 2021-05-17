@@ -1,6 +1,6 @@
 .work {
   display: flex;
-  height: 200vh;
+  height: 280vh;
   align-items: center;
   flex-flow: column wrap;
 }
@@ -41,7 +41,6 @@
   margin-top: 1rem;
   max-width: 90%;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid black;
 }
 .work .images picture .content {
   display: flex;
@@ -52,4 +51,5 @@
 }
 .work .images picture .content h4 {
   margin-left: 1rem;
+  border-bottom: 1px solid black;
 }
