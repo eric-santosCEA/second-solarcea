@@ -14,3 +14,11 @@
   color: white;
   height: 90vh;
 }
+.homepage .hero button {
+  border: none;
+  background-color: green;
+  height: 2rem;
+  width: auto;
+  border-radius: 10%;
+  color: whitesmoke;
+}
