@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">
-        <img src="./photos/logo.png" alt="logo" height="50px" />
+        <img src="./photos/logo.webp" alt="logo" height="50" width="50" />
       </Link>
 
       <Link to="solar-basics" className="link">

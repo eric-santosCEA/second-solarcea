@@ -3,50 +3,64 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  background-image: url('../images/houston.webp');
-  height: 87vh;
-  width: auto;
+  background-image: url('../images/houston-small.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
+  height: 87vh;
+  width: auto;
+}
+.homepage .hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 415px) {
+  .homepage .hero {
+    margin-left: 40rem;
+  }
 }
 .homepage .hero h1 {
   font-size: 2rem;
-  color: black;
+  color: whitesmoke;
 }
 @media screen and (min-width: 415px) {
   .homepage .hero h1 {
     font-size: 5rem;
+    color: black;
   }
 }
 .homepage .hero p {
   margin-top: 1rem;
-  color: black;
+  color: whitesmoke;
   line-height: 1rem;
 }
 @media screen and (min-width: 415px) {
   .homepage .hero p {
     font-size: 2rem;
     line-height: 2rem;
+    color: black;
   }
 }
 .homepage .hero button {
   border: none;
   background-color: green;
   height: 3rem;
-  width: 10rem;
+  width: 13rem;
   border-radius: 10px;
   color: whitesmoke;
   font-weight: bold;
   font-size: 1rem;
   margin-top: 1rem;
+  margin-top: 15rem;
   font-family: Montserrat-alternates, sans-serif;
 }
 @media screen and (min-width: 415px) {
   .homepage .hero button {
-    margin-bottom: 10rem;
     width: 15rem;
     font-size: 1.5rem;
     cursor: pointer;
+    margin-top: 1rem;
   }
 }
