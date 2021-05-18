@@ -26,7 +26,12 @@ const OurWork = () => {
               <FaSolarPanel />
               <h4>Katy, TX</h4>
             </div>
-            <img src="./photos/katy1.png" alt="third img" height="250" />
+            <img
+              src="./photos/katy1.webp"
+              alt="third img"
+              width="450"
+              height="300"
+            />
           </picture>
 
           <picture>
@@ -35,17 +40,13 @@ const OurWork = () => {
               <h4>Houston, TX</h4>
             </div>
             <img
-              srcSet="./photos/houston1.png 1440w"
-              sizes="(max-width: 600px) 1440px"
-              src="./photos/houston1.png"
+              src="./photos/houston1.webp"
               alt="third img"
               width="450"
               height="300"
             />
             <img
-              srcSet="./photos/houston2.png 1440w"
-              sizes="(max-width: 600px) 1440px"
-              src="./photos/houston2.png"
+              src="./photos/houston2.webp"
               alt="third img"
               width="450"
               height="300"
@@ -57,19 +58,16 @@ const OurWork = () => {
               <h4>El Paso, TX</h4>
             </div>
             <img
-              srcSet="./photos/elpaso1.webp 500w"
-              sizes="(max-width: 600px) 1440px"
-              src="./photos/elpaso1.webp"
-              alt="third img"
+              src="./photos/elpaso1-500.webp"
+              alt="el paso tx"
               width="450"
+              height="300"
             />
             <img
-              srcSet="./photos/elpaso2.png 1440w"
-              sizes="(max-width: 600px) 1440px"
-              src="./photos/elpaso2.png"
-              alt="third img"
+              src="./photos/elpaso2.webp"
+              alt="el paso tx"
               width="450"
-              height="350"
+              height="300"
             />
           </picture>
         </div>
