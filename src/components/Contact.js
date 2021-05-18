@@ -8,6 +8,7 @@ import {
   AiOutlineLinkedin,
 } from 'react-icons/ai'
 import '../styles/contact.css'
+import Footer from './Footer'
 
 const Contact = () => {
   return (
@@ -54,6 +55,7 @@ const Contact = () => {
           <AiOutlineLinkedin size="2rem" />
         </a>
       </div>
+      <Footer />
     </div>
   )
 }

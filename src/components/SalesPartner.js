@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/partner.css'
+import Footer from './Footer'
 
 const SalesPartner = () => {
   return (
@@ -45,6 +46,7 @@ const SalesPartner = () => {
           </blockquote>
         </figure>
       </div>
+      <Footer />
     </>
   )
 }

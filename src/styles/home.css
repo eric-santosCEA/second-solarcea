@@ -14,8 +14,10 @@
   font-size: 2rem;
   color: black;
 }
-.homepage .hero h4 {
+.homepage .hero p {
+  margin-top: 1rem;
   color: black;
+  line-height: 1rem;
 }
 .homepage .hero button {
   border: none;
