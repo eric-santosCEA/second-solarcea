@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import { GoLocation } from 'react-icons/go'
 import {
   AiOutlineMail,
@@ -8,7 +8,8 @@ import {
   AiOutlineLinkedin,
 } from 'react-icons/ai'
 import '../styles/contact.css'
-import Footer from './Footer'
+
+const Footer = lazy(() => import('./Footer'))
 
 const Contact = () => {
   return (

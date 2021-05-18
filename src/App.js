@@ -5,7 +5,6 @@ const Home = lazy(() => import('./components/Home'))
 const Navbar = lazy(() => import('./components/Navbar'))
 const SolarBasics = lazy(() => import('./components/SolarBasics'))
 const SalesPartner = lazy(() => import('./components/SalesPartner'))
-const Footer = lazy(() => import('./components/Footer'))
 const Work = lazy(() => import('./components/OurWork'))
 const Contact = lazy(() => import('./components/Contact'))
 

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import { FaSolarPanel } from 'react-icons/fa'
 import { FiSun } from 'react-icons/fi'
 import { BsHouseDoor } from 'react-icons/bs'
 import '../styles/our-work.css'
-import Footer from './Footer'
+
+const Footer = lazy(() => import('./Footer'))
 
 const OurWork = () => {
   return (

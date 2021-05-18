@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import '../styles/partner.css'
-import Footer from './Footer'
+
+const Footer = lazy(() => import('./Footer'))
 
 const SalesPartner = () => {
   return (
