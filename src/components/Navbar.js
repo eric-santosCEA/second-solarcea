@@ -9,9 +9,6 @@ const Navbar = () => {
       <Link to="/">
         <img src="./photos/logo.png" alt="logo" height="50px" />
       </Link>
-      <Link to="/" className="link">
-        Home
-      </Link>
 
       <Link to="solar-basics" className="link">
         Solar Basics

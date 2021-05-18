@@ -6,29 +6,19 @@ const Footer = lazy(() => import('./Footer'))
 const SalesPartner = () => {
   return (
     <>
-      <div className="quote">
-        <h1>Join Cea</h1>
-        <section className="buttons">
-          <a href="https://clean-energy-america.estimate.demand-iq.com/">
-            <button className="btn">Get A Solar Quote!</button>
-          </a>
-        </section>
-
-        <figure>
-          <blockquote>
-            <p>
-              Solar energy is the cheapest source of energy in the world as of
-              2017.
-            </p>
-          </blockquote>
-        </figure>
+      <div>
+        <h1 className="quote">Join Cea</h1>
       </div>
+
       <picture>
-        <img src="./photos/ferris-wheel.jpg" alt="houston" />
+        <img src="./photos/elpaso2.png" alt="houston" height="500" />
       </picture>
       <section className="buttons">
         <a href="https://ceadash.com/application/">
           <button className="btn">Become A Sales Partner</button>
+        </a>
+        <a href="https://clean-energy-america.estimate.demand-iq.com/">
+          <button className="btn">Get A Solar Quote!</button>
         </a>
       </section>
       <div className="quote lower">

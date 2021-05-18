@@ -2,8 +2,11 @@ nav {
   background-color: #33383e;
   display: flex;
   justify-content: space-between;
-
   height: 3rem;
+  @media screen and (min-width: 415px) {
+    justify-content: space-evenly;
+  }
+
   .link {
     display: none;
     justify-content: space-evenly;
@@ -12,10 +15,15 @@ nav {
     text-decoration: none;
     color: whitesmoke;
     font-family: Montserrat-alternates, sans-serif;
+    @media screen and (min-width: 415px) {
+      display: flex;
+    }
   }
   .icon {
     display: flex;
-
     color: whitesmoke;
+    @media screen and (min-width: 415px) {
+      display: none;
+    }
   }
 }

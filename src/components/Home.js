@@ -13,7 +13,7 @@ const Home = () => {
             FOR A BETTER TOMORROW, <br /> CLEAN ENERGY TODAY.
           </p>
           <Link to="/sales-partner">
-            <button>Join CEA!</button>
+            <button>Join Cea!</button>
           </Link>
         </section>
       </div>

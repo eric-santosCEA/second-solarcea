@@ -13,11 +13,18 @@
     h1 {
       font-size: 2rem;
       color: black;
+      @media screen and (min-width: 415px) {
+        font-size: 5rem;
+      }
     }
     p {
       margin-top: 1rem;
       color: black;
       line-height: 1rem;
+      @media screen and (min-width: 415px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
     }
 
     button {
@@ -31,6 +38,12 @@
       font-size: 1rem;
       margin-top: 1rem;
       font-family: Montserrat-alternates, sans-serif;
+      @media screen and (min-width: 415px) {
+        margin-bottom: 10rem;
+        width: 15rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
     }
   }
 }

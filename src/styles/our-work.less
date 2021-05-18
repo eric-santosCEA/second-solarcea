@@ -1,8 +1,8 @@
 .work {
   display: flex;
-  height: 280vh;
   align-items: center;
   flex-flow: column wrap;
+
   .title {
     margin-top: 7rem;
     font-family: Asap, sans-serif;
@@ -35,11 +35,23 @@
     }
   }
   .images {
+    @media screen and (min-width: 415px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
     picture {
       display: flex;
       justify-content: center;
       flex-flow: column;
       align-items: center;
+      @media screen and (min-width: 415px) {
+        flex-flow: column;
+        max-width: 40%;
+        max-height: 40%;
+      }
+
       img {
         margin-top: 1rem;
         max-width: 90%;

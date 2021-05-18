@@ -4,6 +4,11 @@ nav {
   justify-content: space-between;
   height: 3rem;
 }
+@media screen and (min-width: 415px) {
+  nav {
+    justify-content: space-evenly;
+  }
+}
 nav .link {
   display: none;
   justify-content: space-evenly;
@@ -13,7 +18,17 @@ nav .link {
   color: whitesmoke;
   font-family: Montserrat-alternates, sans-serif;
 }
+@media screen and (min-width: 415px) {
+  nav .link {
+    display: flex;
+  }
+}
 nav .icon {
   display: flex;
   color: whitesmoke;
+}
+@media screen and (min-width: 415px) {
+  nav .icon {
+    display: none;
+  }
 }

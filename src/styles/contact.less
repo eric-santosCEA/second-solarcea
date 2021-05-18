@@ -1,5 +1,8 @@
 .main {
   height: 110vh;
+  @media screen and (min-width: 415px) {
+    height: 85vh;
+  }
   .contact {
     display: flex;
     justify-content: center;
@@ -22,7 +25,10 @@
     justify-content: center;
     align-items: center;
     height: 4rem;
-
+    @media screen and (min-width: 415px) {
+      margin-top: 5rem;
+      height: 7rem;
+    }
     a {
       color: black;
     }

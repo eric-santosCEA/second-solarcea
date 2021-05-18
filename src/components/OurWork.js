@@ -37,7 +37,7 @@ const OurWork = () => {
           <picture>
             <div className="content">
               <FiSun />
-              <h4>El Paso, TX</h4>
+              <h4>Houston, TX</h4>
             </div>
             <img
               srcSet="./photos/houston1.png 1440w"
@@ -55,7 +55,7 @@ const OurWork = () => {
           <picture>
             <div className="content">
               <BsHouseDoor />
-              <h4>Houston, TX</h4>
+              <h4>El Paso, TX</h4>
             </div>
             <img
               srcSet="./photos/elpaso1.png 1440w"

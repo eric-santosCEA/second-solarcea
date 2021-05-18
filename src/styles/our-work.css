@@ -1,6 +1,5 @@
 .work {
   display: flex;
-  height: 280vh;
   align-items: center;
   flex-flow: column wrap;
 }
@@ -31,11 +30,26 @@
 .work figure blockquote p::after {
   content: '\201D';
 }
+@media screen and (min-width: 415px) {
+  .work .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+}
 .work .images picture {
   display: flex;
   justify-content: center;
   flex-flow: column;
   align-items: center;
+}
+@media screen and (min-width: 415px) {
+  .work .images picture {
+    flex-flow: column;
+    max-width: 40%;
+    max-height: 40%;
+  }
 }
 .work .images picture img {
   margin-top: 1rem;

@@ -1,6 +1,11 @@
 .main {
   height: 110vh;
 }
+@media screen and (min-width: 415px) {
+  .main {
+    height: 85vh;
+  }
+}
 .main .contact {
   display: flex;
   justify-content: center;
@@ -22,6 +27,12 @@
   justify-content: center;
   align-items: center;
   height: 4rem;
+}
+@media screen and (min-width: 415px) {
+  .main .social-icons {
+    margin-top: 5rem;
+    height: 7rem;
+  }
 }
 .main .social-icons a {
   color: black;
