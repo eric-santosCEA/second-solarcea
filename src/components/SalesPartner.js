@@ -11,7 +11,12 @@ const SalesPartner = () => {
       </div>
 
       <picture>
-        <img src="./photos/elpaso2.png" alt="houston" height="500" />
+        <img
+          src="./photos/elpaso1-500.webp"
+          alt="el paso"
+          height="300"
+          width="375"
+        />
       </picture>
       <section className="buttons">
         <a href="https://ceadash.com/application/">
