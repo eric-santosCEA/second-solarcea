@@ -37,7 +37,7 @@ picture {
 picture img {
   margin-top: 1rem;
   max-width: 90%;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 @media screen and (min-width: 415px) {
   picture img {
@@ -53,7 +53,7 @@ picture img {
 }
 .buttons .btn {
   margin: 0 0.5rem;
-  border-radius: 10%;
+  border-radius: 10px;
   border: none;
   background-color: green;
   color: whitesmoke;

@@ -21,7 +21,7 @@
 .work figure blockquote p {
   padding: 15px;
   background: #eee;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: Montserrat-alternates, sans-serif;
 }
 .work figure blockquote p::before {
