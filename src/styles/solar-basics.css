@@ -1,9 +1,59 @@
 .basics {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 90vh;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 0 1rem;
 }
-.basics h1 {
-  color: black;
+@media screen and (min-width: 415px) {
+  .basics {
+    margin: 2rem 10rem;
+  }
+}
+.basics header h1 {
+  border-bottom: 2px solid black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.basics .title {
+  margin: 2rem 0;
+}
+@media screen and (min-width: 415px) {
+  .basics .title {
+    margin: 2rem;
+  }
+}
+.basics .blocks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column wrap;
+}
+@media screen and (min-width: 415px) {
+  .basics .blocks {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+.basics .blocks .regular {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 415px) {
+  .basics .blocks .regular {
+    max-width: 33%;
+  }
+}
+.basics .blocks .regular h3 {
+  border-bottom: 1px dotted red;
+}
+.basics .blocks .micro {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 415px) {
+  .basics .blocks .micro {
+    max-width: 33%;
+  }
+}
+.basics .blocks .micro h3 {
+  border-bottom: 3px dotted green;
 }

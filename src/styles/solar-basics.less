@@ -1,9 +1,51 @@
 .basics {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 90vh;
-  h1 {
-    color: black;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 0 1rem;
+  @media screen and (min-width: 415px) {
+    margin: 2rem 10rem;
+  }
+  header {
+    h1 {
+      border-bottom: 2px solid black;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .title {
+    margin: 2rem 0;
+    @media screen and (min-width: 415px) {
+      margin: 2rem;
+    }
+  }
+  .blocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column wrap;
+    @media screen and (min-width: 415px) {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .regular {
+      margin-bottom: 1rem;
+      @media screen and (min-width: 415px) {
+        max-width: 33%;
+      }
+      h3 {
+        border-bottom: 1px dotted red;
+      }
+    }
+    .micro {
+      margin-bottom: 2rem;
+      @media screen and (min-width: 415px) {
+        max-width: 33%;
+      }
+      h3 {
+        border-bottom: 3px dotted green;
+      }
+    }
   }
 }
