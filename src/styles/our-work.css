@@ -30,40 +30,32 @@
 .work figure blockquote p::after {
   content: '\201D';
 }
+.images {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 @media screen and (min-width: 415px) {
-  .work .images {
+  .images {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
   }
 }
-.work .images picture {
+.images picture {
   display: flex;
   justify-content: center;
-  flex-flow: column;
   align-items: center;
+  flex-flow: column;
 }
 @media screen and (min-width: 415px) {
-  .work .images picture {
-    flex-flow: column;
-    max-width: 40%;
-    max-height: 40%;
+  .images picture {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
   }
 }
-.work .images picture img {
-  margin-top: 1rem;
-  max-width: 90%;
-  padding-bottom: 0.5rem;
-}
-.work .images picture .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin: 1rem 0 0 0;
-}
-.work .images picture .content h4 {
-  margin-left: 1rem;
-  border-bottom: 1px solid black;
+.images picture img {
+  margin: 1rem;
+  border: none;
 }

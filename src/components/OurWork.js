@@ -1,7 +1,4 @@
 import React, { lazy } from 'react'
-import { FaSolarPanel } from 'react-icons/fa'
-import { FiSun } from 'react-icons/fi'
-import { BsHouseDoor } from 'react-icons/bs'
 import '../styles/our-work.css'
 
 const Footer = lazy(() => import('./Footer'))
@@ -19,58 +16,73 @@ const OurWork = () => {
             </p>
           </blockquote>
         </figure>
+      </div>
+      <div className="images">
+        <picture>
+          <img
+            src="./photos/houston1.webp"
+            alt="third img"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/houston2.webp"
+            alt="third img"
+            width="450"
+            height="300"
+          />
 
-        <div className="images">
-          <picture>
-            <div className="content">
-              <FaSolarPanel />
-              <h4>Katy, TX</h4>
-            </div>
-            <img
-              src="./photos/katy1.webp"
-              alt="third img"
-              width="450"
-              height="300"
-            />
-          </picture>
+          <img
+            src="./photos/elpaso1-500.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/elpaso2.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
 
-          <picture>
-            <div className="content">
-              <FiSun />
-              <h4>Houston, TX</h4>
-            </div>
-            <img
-              src="./photos/houston1.webp"
-              alt="third img"
-              width="450"
-              height="300"
-            />
-            <img
-              src="./photos/houston2.webp"
-              alt="third img"
-              width="450"
-              height="300"
-            />
-          </picture>
-          <picture>
-            <div className="content">
-              <BsHouseDoor />
-              <h4>El Paso, TX</h4>
-            </div>
-            <img
-              src="./photos/elpaso1-500.webp"
-              alt="el paso tx"
-              width="450"
-              height="300"
-            />
-            <img
-              src="./photos/elpaso2.webp"
-              alt="el paso tx"
-              width="450"
-              height="300"
-            />
-          </picture>
-        </div>
+          <img
+            src="./photos/original1.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/original2.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/original3.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/original4.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+          <img
+            src="./photos/original5.webp"
+            alt="el paso tx"
+            width="450"
+            height="300"
+          />
+
+          <img
+            src="./photos/katy1.webp"
+            alt="third img"
+            width="450"
+            height="300"
+          />
+        </picture>
       </div>
       <Footer />
     </>
