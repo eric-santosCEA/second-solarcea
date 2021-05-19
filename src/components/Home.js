@@ -12,7 +12,7 @@ const Home = () => {
           <p>
             FOR A BETTER TOMORROW, <br /> CLEAN ENERGY TODAY.
           </p>
-          <Link to="/sales-partner">
+          <Link to="/sales-partner" className="link">
             <button>Join Cea!</button>
           </Link>
         </section>

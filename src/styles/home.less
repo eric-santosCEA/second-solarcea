@@ -6,11 +6,12 @@
   background-image: url('../images/houston-small.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   height: 90vh;
   width: auto;
   @media screen and (min-width: 415px) {
     height: 100vh;
+    background-size: contain;
   }
   .hero {
     display: flex;
@@ -40,23 +41,25 @@
       }
     }
 
-    button {
-      border: none;
-      background-color: green;
-      height: 3rem;
-      width: 13rem;
-      border-radius: 10px;
-      color: whitesmoke;
-      font-weight: bold;
-      font-size: 1rem;
-      margin-top: 1rem;
-      margin-top: 15rem;
-      font-family: Montserrat-alternates, sans-serif;
-      @media screen and (min-width: 415px) {
-        width: 15rem;
-        font-size: 1.5rem;
-        cursor: pointer;
-        margin-top: 1rem;
+    .link {
+      margin-top: 10rem;
+      button {
+        border: none;
+        background-color: green;
+        height: 3rem;
+        width: 13rem;
+        border-radius: 10px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 1rem;
+
+        font-family: Montserrat-alternates, sans-serif;
+        @media screen and (min-width: 415px) {
+          width: 15rem;
+          font-size: 1.5rem;
+          cursor: pointer;
+          margin-top: 1rem;
+        }
       }
     }
   }
