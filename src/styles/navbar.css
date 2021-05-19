@@ -6,15 +6,8 @@ nav {
 }
 @media screen and (min-width: 415px) {
   nav {
-    width: 70%;
+    width: 100%;
     justify-content: space-evenly;
-    background-color: white;
-    margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 415px) {
-  nav .logo {
-    background-color: black;
   }
 }
 nav .link {
@@ -25,20 +18,13 @@ nav .link {
   text-decoration: none;
   color: whitesmoke;
   font-family: Montserrat-alternates, sans-serif;
-  margin-right: 1rem;
 }
 @media screen and (min-width: 415px) {
   nav .link {
     display: flex;
-    color: black;
   }
 }
 nav .icon {
   display: none;
   color: whitesmoke;
-}
-@media screen and (min-width: 415px) {
-  nav .icon {
-    display: none;
-  }
 }
