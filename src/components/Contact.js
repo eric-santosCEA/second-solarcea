@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="main">
         <address className="contact">
           <GoLocation size="2rem" color="green" className="icon" />
-          <h3>Address:</h3>
+          <h3>El Paso address:</h3>
           <p>6600 N Mesa St STE 502, El Paso, TX 79912</p>
           <AiOutlinePhone size="2rem" color="green" className="icon" />
           <h3>
@@ -31,7 +31,7 @@ const Contact = () => {
         </address>
         <address className="contact">
           <GoLocation size="2rem" color="green" className="icon" />
-          <h3>Address:</h3>
+          <h3>Houston address:</h3>
           <p>13105 Northwest Freeway, Suite 1260, Houston TX 77040</p>
           <AiOutlinePhone size="2rem" color="green" className="icon" />
           <h3>
@@ -43,23 +43,20 @@ const Contact = () => {
             Email: <a href="mailto:support@joincea.com">support@joincea.com</a>
           </h3>
         </address>
-        <div className="social-icons">
-          <a href="https://www.facebook.com/cleanenergyamerica/" alt="facebook">
-            <AiOutlineFacebook size="2rem" />
-          </a>
-          <a
-            href="https://www.instagram.com/cleanenergyamerica/"
-            alt="instagram"
-          >
-            <AiOutlineInstagram size="2rem" />
-          </a>
-          <a
-            href="https://www.linkedin.com/company/clean-energy-america/"
-            alt="linkedin"
-          >
-            <AiOutlineLinkedin size="2rem" />
-          </a>
-        </div>
+      </div>
+      <div className="social-icons">
+        <a href="https://www.facebook.com/cleanenergyamerica/" alt="facebook">
+          <AiOutlineFacebook size="2rem" />
+        </a>
+        <a href="https://www.instagram.com/cleanenergyamerica/" alt="instagram">
+          <AiOutlineInstagram size="2rem" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/clean-energy-america/"
+          alt="linkedin"
+        >
+          <AiOutlineLinkedin size="2rem" />
+        </a>
       </div>
       <Footer />
     </>

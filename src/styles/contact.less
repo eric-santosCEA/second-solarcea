@@ -1,7 +1,10 @@
 .main {
   height: 110vh;
   @media screen and (min-width: 415px) {
-    height: 85vh;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .contact {
     display: flex;
@@ -12,6 +15,9 @@
     margin: 1rem;
     border-bottom: 1px solid black;
     margin-top: 2rem;
+    @media screen and (min-width: 415px) {
+      flex-flow: column wrap;
+    }
     .icon {
       margin-top: 1rem;
     }
@@ -20,17 +26,17 @@
       flex-flow: row wrap;
     }
   }
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    @media screen and (min-width: 415px) {
-      margin-top: 5rem;
-      height: 7rem;
-    }
-    a {
-      color: black;
-    }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  @media screen and (min-width: 415px) {
+    margin-top: 5rem;
+    height: 7rem;
+  }
+  a {
+    color: black;
   }
 }

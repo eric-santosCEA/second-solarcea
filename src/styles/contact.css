@@ -3,7 +3,10 @@
 }
 @media screen and (min-width: 415px) {
   .main {
-    height: 85vh;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .main .contact {
@@ -16,24 +19,29 @@
   border-bottom: 1px solid black;
   margin-top: 2rem;
 }
+@media screen and (min-width: 415px) {
+  .main .contact {
+    flex-flow: column wrap;
+  }
+}
 .main .contact .icon {
   margin-top: 1rem;
 }
 .main .contact p {
   flex-flow: row wrap;
 }
-.main .social-icons {
+.social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 4rem;
 }
 @media screen and (min-width: 415px) {
-  .main .social-icons {
+  .social-icons {
     margin-top: 5rem;
     height: 7rem;
   }
 }
-.main .social-icons a {
+.social-icons a {
   color: black;
 }
