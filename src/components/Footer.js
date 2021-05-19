@@ -4,19 +4,24 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer>
-      <Link to="work" className="link">
-        Our Work
-      </Link>
+    <div className="bottom-nav">
+      <footer>
+        <div className="links">
+          <Link to="work" className="link">
+            Our Work
+          </Link>
 
-      <Link to="contact" className="link">
-        Contact Us
-      </Link>
+          <Link to="contact" className="link">
+            Contact Us
+          </Link>
 
-      <Link to="sales-partner" className="link">
-        Careers
-      </Link>
-    </footer>
+          <Link to="sales-partner" className="link">
+            Careers
+          </Link>
+        </div>
+      </footer>
+      <div className="icons">facebook</div>
+    </div>
   )
 }
 export default Footer

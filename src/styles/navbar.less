@@ -4,23 +4,34 @@ nav {
   justify-content: space-between;
   height: 3rem;
   @media screen and (min-width: 415px) {
+    width: 70%;
     justify-content: space-evenly;
+    background-color: white;
+    margin-top: 1rem;
+  }
+  .logo {
+    @media screen and (min-width: 415px) {
+      background-color: black;
+    }
   }
 
   .link {
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
     text-decoration: none;
     color: whitesmoke;
     font-family: Montserrat-alternates, sans-serif;
+    margin-right: 1rem;
+
     @media screen and (min-width: 415px) {
       display: flex;
+      color: black;
     }
   }
   .icon {
-    display: flex;
+    display: none;
     color: whitesmoke;
     @media screen and (min-width: 415px) {
       display: none;

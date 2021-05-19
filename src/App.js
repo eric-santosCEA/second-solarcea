@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import './styles/app.css'
 
 const Home = lazy(() => import('./components/Home'))
 const Navbar = lazy(() => import('./components/Navbar'))
@@ -13,7 +14,9 @@ function App() {
     <>
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
-          <Navbar />
+          <div className="navbar">
+            <Navbar />
+          </div>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/solar-basics" component={SolarBasics} />
