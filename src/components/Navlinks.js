@@ -28,9 +28,14 @@ const Navlinks = () => {
             <h1>Our Work</h1>
           </Link>
 
-          <Link to="/solar-basics" className="link">
+          <a
+            href="https://ceadash.com/application/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link"
+          >
             <h1>Careers</h1>
-          </Link>
+          </a>
         </div>
         <div className="icon">
           <BiMenuAltRight onClick={handleClick} size="3rem" />

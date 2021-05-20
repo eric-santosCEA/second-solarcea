@@ -9,6 +9,10 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  @media screen and (min-width: 1586px) {
+    background-image: url('../images/houston.jpg');
+  }
+
   h1 {
     display: flex;
     justify-content: center;
@@ -40,11 +44,35 @@
   h1 {
     font-size: 3rem;
   }
+}
+.first-white-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 1.5rem;
+  @media screen and (min-width: 768px) {
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   iframe {
-    margin-top: 5rem;
+    width: 325px;
+    height: 225px;
+    @media screen and (min-width: 768px) {
+      height: 40%;
+      width: 85%;
+    }
+    @media screen and (min-width: 1586px) {
+      height: 55%;
+      width: 80%;
+    }
   }
 }
-.info-dark {
+.first-dark-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,6 +81,9 @@
   color: whitesmoke;
   height: 100vh;
   padding: 30px;
+  @media screen and (min-width: 768px) {
+    height: 40vh;
+  }
   h1 {
     font-size: 32px;
   }
@@ -60,17 +91,109 @@
     margin: 1.5rem 0px;
   }
 }
-.white-info {
+.second-white-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
-
+  flex-flow: column;
   margin: 1.5rem;
+  @media screen and (min-width: 768px) {
+    justify-content: space-evenly;
+  }
   h4 {
+    @media screen and (min-width: 768px) {
+      font-size: 3rem;
+    }
   }
   h1 {
     font-size: 3rem;
     line-height: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+  h6 {
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 }
+.second-dark-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2e2e2e;
+  color: whitesmoke;
+  height: 100vh;
+  padding: 30px;
+  @media screen and (min-width: 768px) {
+    height: 40vh;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0px;
+  }
+}
+.third-white-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+  @media screen and (min-width: 768px) {
+    justify-content: space-evenly;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .images {
+    margin: 1rem 0;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    flex-flow: column;
+    height: 100vh;
+    margin: 1rem 0;
+    background-image: url('../images/flowers.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    @media screen and (min-width: 1586px) {
+      width: 100vw;
+    }
+  }
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: whitesmoke;
+  @media screen and (min-width: 768px) {
+    height: 100vh;
+  }
+  @media screen and (min-width: 1586px) {
+    width: 100vw;
+  }
+}
+
+// @media screen and (min-width: 361px) {
+
+// }

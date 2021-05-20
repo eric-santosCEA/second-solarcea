@@ -13,6 +13,11 @@
   /* Do not repeat the image */
   background-size: cover;
 }
+@media screen and (min-width: 1586px) {
+  .hero {
+    background-image: url('../images/houston.jpg');
+  }
+}
 .hero h1 {
   display: flex;
   justify-content: center;
@@ -44,10 +49,40 @@
 .info h1 {
   font-size: 3rem;
 }
-.info iframe {
-  margin-top: 5rem;
+.first-white-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 1.5rem;
 }
-.info-dark {
+@media screen and (min-width: 768px) {
+  .first-white-info {
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+}
+.first-white-info h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.first-white-info iframe {
+  width: 325px;
+  height: 225px;
+}
+@media screen and (min-width: 768px) {
+  .first-white-info iframe {
+    height: 40%;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 1586px) {
+  .first-white-info iframe {
+    height: 55%;
+    width: 80%;
+  }
+}
+.first-dark-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,20 +92,130 @@
   height: 100vh;
   padding: 30px;
 }
-.info-dark h1 {
+@media screen and (min-width: 768px) {
+  .first-dark-info {
+    height: 40vh;
+  }
+}
+.first-dark-info h1 {
   font-size: 32px;
 }
-.info-dark p {
+.first-dark-info p {
   margin: 1.5rem 0px;
 }
-.white-info {
+.second-white-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: column;
   margin: 1.5rem;
 }
-.white-info h1 {
+@media screen and (min-width: 768px) {
+  .second-white-info {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 768px) {
+  .second-white-info h4 {
+    font-size: 3rem;
+  }
+}
+.second-white-info h1 {
   font-size: 3rem;
   line-height: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .second-white-info h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .second-white-info h6 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .second-white-info p {
+    font-size: 1.5rem;
+  }
+}
+.second-dark-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2e2e2e;
+  color: whitesmoke;
+  height: 100vh;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .second-dark-info {
+    height: 40vh;
+  }
+}
+.second-dark-info h1 {
+  font-size: 32px;
+}
+.second-dark-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0px;
+}
+.third-white-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .third-white-info {
+    justify-content: space-evenly;
+  }
+}
+.third-white-info h1 {
+  font-size: 3rem;
+}
+.third-white-info .images {
+  margin: 1rem 0;
+}
+.third-white-info .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+  margin: 1rem 0;
+  background-image: url('../images/flowers.jpg');
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+@media screen and (min-width: 1586px) {
+  .third-white-info .banner {
+    width: 100vw;
+  }
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: whitesmoke;
+}
+@media screen and (min-width: 768px) {
+  .steps {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1586px) {
+  .steps {
+    width: 100vw;
+  }
 }

@@ -17,25 +17,26 @@ const Home = () => {
       </div>
 
       {/* info section */}
-      <section className="white-info">
+      <section className="first-white-info">
         <h3>Lorem ipsum dolor sit.</h3>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas
           cupiditate in fuga voluptas suscipit quam deleniti! Suscipit
-          veritatis, aliquam atque nihil aut inventore. Optio aliquid quasi
-          architecto velit necessitatibus natus quibusdam nemo, ullam, quae
-          tempore vel hic ex dolorem culpa earum doloribus molestiae placeat
-          quis quam totam libero eligendi! Tempora, iusto hic, et consequuntur
-          ullam enim quibusdam, exercitationem ab quaerat rerum sunt est fugiat
-          architecto eligendi. Illum quos autem sit, iure voluptatem ab,
-          cupiditate, repudiandae aliquam hic totam molestias harum neque nobis
-          quaerat quo maiores? Delectus adipisci asperiores ipsa, rem doloremque
-          porro expedita laudantium tenetur facere nemo ipsam tempora.
+          veritatis, aliquam atque nihil aut inventore.
+          <br /> Optio aliquid quasi architecto velit necessitatibus natus
+          quibusdam nemo, ullam, quae tempore vel hic ex dolorem culpa earum
+          doloribus molestiae placeat quis quam totam <br />
+          libero eligendi! Tempora, iusto hic, et consequuntur ullam enim
+          quibusdam, exercitationem ab quaerat rerum sunt est fugiat architecto
+          eligendi. Illum quos autem sit,
+          <br /> iure voluptatem ab, cupiditate, repudiandae aliquam hic totam
+          molestias harum neque nobis quaerat quo maiores? Delectus adipisci
+          asperiores ipsa,
+          <br /> rem doloremque porro expedita laudantium tenetur facere nemo
+          ipsam tempora.
         </p>
         <iframe
-          width="325"
-          height="225"
           src="https://www.youtube.com/embed/7eADbCyZrXY"
           title="Clean Energy America"
           frameBorder="0"
@@ -45,19 +46,20 @@ const Home = () => {
       </section>
 
       {/* dark info section */}
-      <section className="info-dark">
+      <section className="first-dark-info">
         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vel
           accusamus dicta sit repellat numquam, cupiditate consequuntur tempore,
-          cumque neque quam voluptas id. Assumenda, vitae obcaecati alias, non
-          error nemo dolorem quos accusamus incidunt officia porro ratione
-          necessitatibus quia doloribus.
+          cumque neque quam voluptas id.
+          <br /> Assumenda, vitae obcaecati alias, non error nemo dolorem quos
+          accusamus incidunt officia porro ratione necessitatibus quia
+          doloribus.
         </p>
       </section>
 
       {/* white info section */}
-      <section className="white-info">
+      <section className="second-white-info">
         <h4>Lorem ipsum dolor sit.</h4>
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
         <div>icon</div>
@@ -82,15 +84,15 @@ const Home = () => {
       </section>
 
       {/* another dark info section */}
-      <section className="info-dark">
+      <section className="second-dark-info">
         <h1>Lorem ipsum dolor sit.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           perspiciatis, repudiandae iure impedit molestias ipsam consequuntur
-          perferendis iste ratione delectus placeat laudantium odit consequatur
-          molestiae, veritatis eius dolor aut! Excepturi necessitatibus
-          dignissimos porro perspiciatis fugit. Ipsum neque animi maiores
-          necessitatibus.
+          perferendis iste ratione delectus <br /> placeat laudantium odit
+          consequatur molestiae, veritatis eius dolor aut! Excepturi
+          necessitatibus dignissimos porro perspiciatis fugit. Ipsum neque animi
+          maiores necessitatibus.
         </p>
         <div>icon</div>
         <div>number</div>
@@ -102,7 +104,7 @@ const Home = () => {
       </section>
 
       {/* another white info section with images*/}
-      <section className="white-info images">
+      <section className="third-white-info images">
         <h4>Lorem ipsum dolor sit.</h4>
         <h1>Lorem, ipsum dolor.</h1>
         <p>
@@ -110,14 +112,14 @@ const Home = () => {
           laborum nihil voluptatem hic alias.
         </p>
         <section className="images">
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
-          <div className="image">Lorem ipsum dolor sit.</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
+          <div className="image">images with text in the middle</div>
           <div>icons carousel</div>
         </section>
         <section className="banner">
