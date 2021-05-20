@@ -1,35 +1,29 @@
 .partner {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-flow: column;
-  height: 100vh;
+  padding: 1rem;
+  height: 100%;
 }
-.partner .title {
-  margin-top: 2rem;
+.partner picture img {
+  margin: 1rem 0;
 }
-.partner picture {
+.partner .buttons {
+  margin-bottom: 1rem;
+}
+.partner .buttons a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
+  text-decoration: none;
 }
-.partner picture img {
-  width: 95%;
-}
-.partner section .btn {
-  font-family: Asap, sans-serif;
-  border: none;
+.partner .buttons a button {
+  margin: 1rem 0.5rem;
   border-radius: 5px;
-  background-color: green;
-  color: whitesmoke;
-  height: 3rem;
-  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
 }
-.partner .quote {
-  margin: 0 1rem;
-  line-height: 1.3rem;
-}
-.partner .quote figure blockquote p {
-  font-family: Montserrat-alternates, sans-serif;
+.partner figure blockquote p {
+  border-bottom: 1rem;
 }

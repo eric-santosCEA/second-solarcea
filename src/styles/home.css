@@ -20,12 +20,17 @@
   margin: 1rem;
   color: whitesmoke;
 }
-.hero button {
+.hero .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   border: none;
   border-radius: 10px;
   background-color: green;
   width: 20rem;
   height: 3rem;
+  font-size: 1.5rem;
   color: whitesmoke;
   font-family: Montserrat-alternates, sans-serif;
 }

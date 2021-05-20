@@ -1,5 +1,6 @@
 import React, { lazy } from 'react'
 import '../styles/home.css'
+import { Link } from 'react-router-dom'
 import Navlinks from './Navlinks'
 
 const Footer = lazy(() => import('./Footer'))
@@ -10,7 +11,9 @@ const Home = () => {
       <Navlinks />
       <div className="hero">
         <h1>For a better tomorrow, Clean Energy today</h1>
-        <button>Enroll</button>
+        <Link to="/sales-partner" className="link">
+          Enroll
+        </Link>
       </div>
 
       {/* info section */}
