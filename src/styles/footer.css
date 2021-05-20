@@ -41,6 +41,9 @@
   flex-flow: row;
   width: 100vw;
 }
+.footer .follow-us .social-icons .icon {
+  color: whitesmoke;
+}
 .copyright {
   display: flex;
   justify-content: space-evenly;

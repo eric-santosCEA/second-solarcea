@@ -1,5 +1,12 @@
 import React from 'react'
 import '../styles/footer.css'
+import {
+  FiFacebook,
+  FiInstagram,
+  FiLinkedin,
+  FiMail,
+  FiPhone,
+} from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -27,9 +34,41 @@ const Footer = () => {
         <div className="follow-us">
           <h1>Follow Us</h1>
           <div className="social-icons">
-            <h6 className="icon">icon</h6>
-            <h6 className="icon">icon</h6>
-            <h6 className="icon">icon</h6>
+            <a
+              href="https://www.facebook.com/cleanenergyamerica/"
+              className="icon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiFacebook size="35" />
+            </a>
+            <a
+              href="https://www.instagram.com/cleanenergyamerica/"
+              className="icon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiInstagram size="35" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/clean-energy-america/mycompany/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <FiLinkedin size="35" />
+            </a>
+            <a
+              href="mailto:support@joincea.com?subject=website referral"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <FiMail size="35" />
+            </a>
+            <a href="tel:915-201-2631" className="icon">
+              <FiPhone size="35" />
+            </a>
           </div>
         </div>
       </div>
