@@ -20,7 +20,7 @@ const SalesPartner = () => {
           <button className="btn">Become A Sales Partner</button>
         </a>
         <a href="https://clean-energy-america.estimate.demand-iq.com/">
-          <button className="btn">Get A Solar Quote!</button>
+          <button className="btn">See if your home qualifies</button>
         </a>
       </section>
       <div className="quote">

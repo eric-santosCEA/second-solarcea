@@ -12,7 +12,7 @@ const Home = () => {
       </div>
 
       {/* info section */}
-      <section className="info">
+      <section className="white-info">
         <h3>Lorem ipsum dolor sit.</h3>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>
