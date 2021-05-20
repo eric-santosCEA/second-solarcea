@@ -15,14 +15,21 @@ const Navlinks = () => {
           <img src="./photos/logo.webp" alt="logo" />
         </Link>
         <div className={active ? 'links open' : 'links'}>
-          <Link to="/solar-basics" className="link">
-            <h1>Solar Basics</h1>
+          <Link to="/" className="link">
+            <h1>Home</h1>
+          </Link>
+          <Link to="/sales-partner" className="link">
+            <h1>Sales Partner</h1>
           </Link>
           <Link to="/solar-basics" className="link">
             <h1>Solar Basics</h1>
           </Link>
+          <Link to="/work" className="link">
+            <h1>Our Work</h1>
+          </Link>
+
           <Link to="/solar-basics" className="link">
-            <h1>Solar Basics</h1>
+            <h1>Careers</h1>
           </Link>
         </div>
         <div className="icon">

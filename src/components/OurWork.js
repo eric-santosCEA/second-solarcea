@@ -1,11 +1,13 @@
 import React, { lazy } from 'react'
 import '../styles/our-work.css'
+import Navlinks from './Navlinks'
 
 const Footer = lazy(() => import('./Footer'))
 
 const OurWork = () => {
   return (
     <>
+      <Navlinks />
       <div className="work">
         <section className="title">Our Work</section>
         <figure>
