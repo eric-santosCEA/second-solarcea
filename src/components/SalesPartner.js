@@ -5,20 +5,17 @@ const Footer = lazy(() => import('./Footer'))
 
 const SalesPartner = () => {
   return (
-    <>
-      <div>
-        <h1 className="quote">Join Cea</h1>
-      </div>
-
+    <div className="partner">
+      <h1 className="title">Join Cea</h1>
       <picture>
         <img
-          src="./photos/elpaso1-500.webp"
+          src="./photos/original3.webp"
           alt="el paso"
           height="300"
           width="375"
         />
       </picture>
-      <section className="buttons">
+      <section>
         <a href="https://ceadash.com/application/">
           <button className="btn">Become A Sales Partner</button>
         </a>
@@ -26,7 +23,7 @@ const SalesPartner = () => {
           <button className="btn">Get A Solar Quote!</button>
         </a>
       </section>
-      <div className="quote lower">
+      <div className="quote">
         <figure>
           <blockquote>
             <p>
@@ -43,7 +40,7 @@ const SalesPartner = () => {
         </figure>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 export default SalesPartner

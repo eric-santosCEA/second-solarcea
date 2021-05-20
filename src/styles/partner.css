@@ -1,75 +1,35 @@
-.quote {
+.partner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+}
+.partner .title {
+  margin-top: 2rem;
+}
+.partner picture {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  margin-bottom: 0.5rem;
 }
-.quote h1 {
-  margin-top: 1rem;
+.partner picture img {
+  width: 95%;
 }
-.quote figure {
-  color: black;
-  margin-top: 1rem;
-  max-width: 90%;
-}
-.quote figure blockquote {
-  margin: 0;
-}
-.quote figure blockquote p {
-  padding: 15px;
-  background: #eee;
-  border-radius: 5px;
-  font-family: Montserrat-alternates, sans-serif;
-}
-.quote figure blockquote p::before {
-  content: '\201C';
-}
-.quote figure blockquote p::after {
-  content: '\201D';
-}
-.lower {
-  margin-bottom: 1rem;
-}
-@media screen and (min-width: 415px) {
-  .lower {
-    margin: 5rem 0;
-  }
-}
-picture {
-  display: flex;
-  justify-content: center;
-}
-picture img {
-  margin-top: 1rem;
-  max-width: 90%;
-  border-radius: 10px;
-}
-@media screen and (min-width: 415px) {
-  picture img {
-    height: 375px;
-    width: 500px;
-  }
-}
-.buttons {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: 1rem;
-}
-.buttons .btn {
-  margin: 0.5rem 0.5rem;
-  border-radius: 10px;
+.partner section .btn {
+  font-family: Asap, sans-serif;
   border: none;
+  border-radius: 5px;
   background-color: green;
   color: whitesmoke;
   height: 3rem;
-  font-family: Montserrat-alternates, sans-serif;
+  margin: 0.5rem;
 }
-@media screen and (min-width: 415px) {
-  .buttons .btn {
-    height: 4rem;
-    width: 10rem;
-    cursor: pointer;
-  }
+.partner .quote {
+  margin: 0 1rem;
+  line-height: 1.3rem;
+}
+.partner .quote figure blockquote p {
+  font-family: Montserrat-alternates, sans-serif;
 }

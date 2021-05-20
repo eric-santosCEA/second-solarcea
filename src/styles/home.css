@@ -1,73 +1,72 @@
-.homepage {
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 450px;
+  background-image: url('../images/houston-hwy.webp');
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  color: whitesmoke;
+}
+.hero button {
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  width: 20rem;
+  height: 3rem;
+  color: whitesmoke;
+  font-family: Montserrat-alternates, sans-serif;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 3rem 1rem;
+}
+.info h1 {
+  font-size: 3rem;
+}
+.info iframe {
+  margin-top: 5rem;
+}
+.info-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2e2e2e;
+  color: whitesmoke;
+  height: 100vh;
+  padding: 30px;
+}
+.info-dark h1 {
+  font-size: 32px;
+}
+.info-dark p {
+  margin: 1.5rem 0px;
+}
+.white-info {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  background-image: url('../images/houston-small.webp');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 90vh;
-  width: auto;
+  margin: 1.5rem;
 }
-@media screen and (min-width: 415px) {
-  .homepage {
-    height: 100vh;
-    background-size: contain;
-  }
-}
-.homepage .hero {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-@media screen and (min-width: 415px) {
-  .homepage .hero {
-    margin-left: 40rem;
-  }
-}
-.homepage .hero h1 {
-  font-size: 2rem;
-  color: whitesmoke;
-}
-@media screen and (min-width: 415px) {
-  .homepage .hero h1 {
-    font-size: 5rem;
-    color: black;
-  }
-}
-.homepage .hero p {
-  margin-top: 1rem;
-  color: whitesmoke;
-  line-height: 1rem;
-}
-@media screen and (min-width: 415px) {
-  .homepage .hero p {
-    font-size: 2rem;
-    line-height: 2rem;
-    color: black;
-  }
-}
-.homepage .hero .link {
-  margin-top: 10rem;
-}
-.homepage .hero .link button {
-  border: none;
-  background-color: green;
-  height: 3rem;
-  width: 13rem;
-  border-radius: 10px;
-  color: whitesmoke;
-  font-weight: bold;
-  font-size: 1rem;
-  font-family: Montserrat-alternates, sans-serif;
-}
-@media screen and (min-width: 415px) {
-  .homepage .hero .link button {
-    width: 15rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-top: 1rem;
-  }
+.white-info h1 {
+  font-size: 3rem;
+  line-height: 3rem;
 }
