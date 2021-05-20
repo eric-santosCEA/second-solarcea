@@ -1,11 +1,13 @@
 import React, { lazy } from 'react'
 import '../styles/home.css'
+import Navlinks from './Navlinks'
 
 const Footer = lazy(() => import('./Footer'))
 
 const Home = () => {
   return (
     <>
+      <Navlinks />
       <div className="hero">
         <h1>For a better tomorrow, Clean Energy today</h1>
         <button>Enroll</button>
@@ -32,7 +34,7 @@ const Home = () => {
           width="325"
           height="225"
           src="https://www.youtube.com/embed/7eADbCyZrXY"
-          title="YouTube video player"
+          title="Clean Energy America"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

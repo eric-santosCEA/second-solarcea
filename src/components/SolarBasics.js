@@ -2,10 +2,12 @@ import React from 'react'
 import '../styles/solar-basics.css'
 
 import Footer from './Footer'
+import Navlinks from './Navlinks'
 
 const SolarBasics = () => {
   return (
     <>
+      <Navlinks />
       <div className="basics">
         <header>
           <h1>Solar Basics</h1>

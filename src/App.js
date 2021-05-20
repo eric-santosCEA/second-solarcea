@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './styles/app.css'
 
 const Home = lazy(() => import('./components/Home'))
-const Navbar = lazy(() => import('./components/Navbar'))
 const SolarBasics = lazy(() => import('./components/SolarBasics'))
 const SalesPartner = lazy(() => import('./components/SalesPartner'))
 const Work = lazy(() => import('./components/OurWork'))
@@ -14,9 +13,6 @@ function App() {
     <>
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
-          <div className="navbar">
-            <Navbar />
-          </div>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/solar-basics" component={SolarBasics} />
