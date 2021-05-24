@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 .footer .addresses address a h4 {
-  color: green;
+  color: #1dd3b0;
 }
 .footer .follow-us {
   display: flex;

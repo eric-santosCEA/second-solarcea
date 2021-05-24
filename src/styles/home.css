@@ -5,17 +5,15 @@
   flex-flow: column;
   height: 450px;
   background: #fefae0;
-  background-color: #d8f3dc;
-  /* Used if the image is unavailable */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
 }
 @media screen and (min-width: 1586px) {
   .hero {
     background-image: url('../images/houston.jpg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
   }
 }
 .hero h1 {
@@ -42,7 +40,7 @@
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  background-color: green;
+  background-color: #1dd3b0;
   width: 20rem;
   height: 3rem;
   font-size: 1.5rem;
@@ -205,7 +203,7 @@
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  background-color: green;
+  background-color: #1dd3b0;
   color: whitesmoke;
 }
 .second-dark-info {
@@ -325,7 +323,7 @@
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  background-color: green;
+  background-color: #1dd3b0;
   color: whitesmoke;
 }
 .testimonials {
@@ -373,6 +371,6 @@
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  background-color: green;
+  background-color: #1dd3b0;
   color: whitesmoke;
 }

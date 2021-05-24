@@ -123,22 +123,22 @@ const Home = () => {
         <section className="images">
           <img
             src="./photos/original1.webp"
-            alt="houston roof"
+            alt="solar panel right"
             className="photo"
           />
           <img
             src="./photos/original2.webp"
-            alt="houston roof"
+            alt="solar panel stand"
             className="photo"
           />
           <img
             src="./photos/original3.webp"
-            alt="houston roof"
+            alt="rooftop panels"
             className="photo"
           />
           <img
             src="./photos/original4.webp"
-            alt="houston roof"
+            alt="cloudy sky panels"
             className="photo"
           />
           <img
