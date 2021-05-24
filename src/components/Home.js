@@ -2,6 +2,8 @@ import React, { lazy } from 'react'
 import '../styles/home.css'
 import { Link } from 'react-router-dom'
 import Navlinks from './Navlinks'
+import { IoBusinessOutline } from 'react-icons/io5'
+import { GrSolaris } from 'react-icons/gr'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -10,7 +12,7 @@ const Home = () => {
     <>
       <Navlinks />
       <div className="hero">
-        <h1>For a better tomorrow, Clean Energy today</h1>
+        <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">
           Enroll
         </Link>
@@ -25,9 +27,9 @@ const Home = () => {
         <p>
           Help Cut Electricity Costs & Go Green (Nationwide): Our team of energy
           experts specialize in finding the right plan for your home or
-          business. We have a variety of solar, wind and green energy programs
-          to help you reach your goal of protecting the environment while saving
-          money on your electric bill!
+          business. We have a variety of solar,and green energy programs to help
+          you reach your goal of protecting the environment while saving money
+          on your electric bill!
         </p>
         <iframe
           src="https://www.youtube.com/embed/7eADbCyZrXY"
@@ -61,7 +63,7 @@ const Home = () => {
           We can help you take advantage of your local utility company’s solar
           program, even if you’re a first-time buyer.
         </h1>
-        <div>icon</div>
+        <IoBusinessOutline size="5rem" />
         <h6>
           You can save money. The sun delivers free, clean energy for your
           electric needs.
@@ -72,7 +74,7 @@ const Home = () => {
           system, including great financing options, and how it will all affect
           your bottom line.
         </p>
-        <div>icon</div>
+        <GrSolaris size="5rem" />
         <h6>
           We know that figuring out how to power your home with renewable energy
           can feel like a puzzle. We’re here to make it easier.
@@ -83,7 +85,7 @@ const Home = () => {
           energy bills and helping the environment!
         </p>
         <button>Lorem ipsum dolor sit amet.</button>
-        <div>icon</div>
+
         <h6>
           Clean Energy America is here to make the transition into solar simple
           and easy. We want your experience to be a happy one.
@@ -97,32 +99,12 @@ const Home = () => {
       {/* another dark info section */}
       <section className="second-dark-info">
         <h1>We’re here to help you go green and save on your energy bills.</h1>
-        <p>
-          Think of that calculator in your junk drawer that you've always had
-          and have no idea where you got it. That calculator is powered by a
-          photovoltaic module (or in other words, a solar panel). <br />
-          Granted, it's a tiny module powering a tiny calculator, but it works
-          beautifully, right? I mean, this calculator has been running for
-          decades. Multiply that tiny generator by a bazillion and you have
-          enough solar power to run your entire house.
-          <br /> Solar may seem a bit like science fiction, because chances are
-          you don't know anyone who has a solar generator on their house yet.
-          That's because the cost of solar panels has
-          <br /> only recently come down to the point where it makes economic
-          sense for most people.
-          <br /> But solar panels have been powering specific applications for
-          decades - mostly devices that are difficult to reach with power lines:
-          Driveway gates, emergency signs, buoys,
-          <br /> and virtually every satellite ever launched into space. The
-          technology is extremely mature, not to mention reliable.
-        </p>
-        <div>icon</div>
         <div>number</div>
-        <h4>Lorem, ipsum.</h4>
+        <h4>Nationwide Offices</h4>
         <div>number</div>
-        <h4>Lorem, ipsum dolor. </h4>
+        <h4>Years In Business </h4>
         <div>number</div>
-        <h4>Lorem, ipsum.</h4>
+        <h4>Megawatts Installed</h4>
       </section>
 
       {/* another white info section with images*/}
@@ -204,15 +186,15 @@ const Home = () => {
               <h4>- Tony</h4>
             </figcaption>
           </blockquote>
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Finding affordable renewable energy shouldn’t be a guessing game.
-            That’s why we created this free, fast, and easy tool to help anyone
-            compare the costs of renewable energy in their area.
-          </p>
-          <button>Get Quote</button>
         </section>
       </section>
+      <div className="estimate">
+        <h1>No need to wait, get your estimate now</h1>
+
+        <a href="https://clean-energy-america.estimate.demand-iq.com/">
+          <button>Get an estimate</button>
+        </a>
+      </div>
       <Footer />
     </>
   )

@@ -118,11 +118,13 @@
 @media screen and (min-width: 768px) {
   .second-white-info {
     justify-content: space-evenly;
+    padding: 5rem;
   }
 }
 @media screen and (min-width: 768px) {
   .second-white-info h4 {
-    font-size: 3rem;
+    line-height: 3rem;
+    margin: 2rem 0;
   }
 }
 .second-white-info h1 {
@@ -229,4 +231,14 @@
   .testimonials blockquote {
     margin: 2rem 0;
   }
+}
+.estimate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 5rem;
+}
+.estimate h1 {
+  margin: 1rem 0;
 }
