@@ -5,24 +5,43 @@
   flex-flow: column;
   background-color: #212121;
   color: whitesmoke;
-  padding: 1rem;
+  padding: 5rem;
   height: 100vh;
+
   h1 {
     border-bottom: 1px solid whitesmoke;
     margin-bottom: 1rem;
+    @media screen and (min-width: 768px) {
+      font-size: 3rem;
+    }
   }
   h2 {
     margin-top: 1rem;
   }
-  address {
+  .addresses {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-    a {
-      text-decoration: none;
-      color: whitesmoke;
-      cursor: pointer;
+    flex-flow: column;
+    @media screen and (min-width: 768px) {
+      flex-flow: row wrap;
+    }
+    address {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      @media screen and (min-width: 768px) {
+        margin: 2rem 4rem;
+      }
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+        h4 {
+          color: green;
+        }
+      }
     }
   }
   .follow-us {
@@ -38,8 +57,18 @@
       justify-content: space-evenly;
       flex-flow: row;
       width: 100vw;
-      .icon {
-        color: whitesmoke;
+      a {
+        .icon {
+          color: whitesmoke;
+          @media screen and (min-width: 768px) {
+            height: 3rem;
+            width: auto;
+          }
+          @media screen and (min-width: 1568px) {
+            height: 4rem;
+            width: auto;
+          }
+        }
       }
     }
   }

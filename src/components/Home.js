@@ -113,7 +113,6 @@ const Home = () => {
 
       {/* another white info section with images*/}
       <section className="third-white-info images">
-        <h4>Lorem ipsum dolor sit.</h4>
         <h1>
           We make home energy efficiency simple, affordable, and worry-free.
         </h1>
@@ -122,25 +121,39 @@ const Home = () => {
           electricity bill.
         </p>
         <section className="images">
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div className="image">images with text in the middle</div>
-          <div>icons carousel</div>
+          <img
+            src="./photos/original1.webp"
+            alt="houston roof"
+            className="photo"
+          />
+          <img
+            src="./photos/original2.webp"
+            alt="houston roof"
+            className="photo"
+          />
+          <img
+            src="./photos/original3.webp"
+            alt="houston roof"
+            className="photo"
+          />
+          <img
+            src="./photos/original4.webp"
+            alt="houston roof"
+            className="photo"
+          />
+          <img
+            src="./photos/original5.webp"
+            alt="houston roof"
+            className="photo"
+          />
         </section>
         <section className="banner">
-          <h4>
-            We support every step of the way by helping you find the cleanest
-            forms of renewable energy and ways to produce it.
-          </h4>
           <h1>Solar Energy. You Can Save</h1>
           <p>
             Clean energy works for everyone. And it is good for the economy, our
-            communities and our environment.
+            communities and our environment. We support every step of the way by
+            helping you find the cleanest forms of renewable energy and ways to
+            produce it.
           </p>
           <a href="https://clean-energy-america.estimate.demand-iq.com/">
             <button>See If You Qualify</button>
@@ -185,7 +198,8 @@ const Home = () => {
               The representative was knowledgeable and gave me a few different
               payment options
               <br /> so I could pay for the project over time if needed. He was
-              polite, professional and courteous. I would recommend <em>CEA</em>
+              polite, professional and courteous. I would recommend
+              <em> CEA </em>
               to friends and family.
             </q>
             <figcaption>
@@ -195,10 +209,7 @@ const Home = () => {
         </section>
       </section>
       <div className="estimate">
-        <h1>
-          If you think you qualify, apply today to see how it could work for
-          you.
-        </h1>
+        <h1>Apply today to see how it could work for you.</h1>
 
         <a href="https://clean-energy-america.estimate.demand-iq.com/">
           <button>See If You Qualify</button>

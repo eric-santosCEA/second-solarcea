@@ -5,26 +5,50 @@
   flex-flow: column;
   background-color: #212121;
   color: whitesmoke;
-  padding: 1rem;
+  padding: 5rem;
   height: 100vh;
 }
 .footer h1 {
   border-bottom: 1px solid whitesmoke;
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 768px) {
+  .footer h1 {
+    font-size: 3rem;
+  }
+}
 .footer h2 {
   margin-top: 1rem;
 }
-.footer address {
+.footer .addresses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+@media screen and (min-width: 768px) {
+  .footer .addresses {
+    flex-flow: row wrap;
+  }
+}
+.footer .addresses address {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
-.footer address a {
+@media screen and (min-width: 768px) {
+  .footer .addresses address {
+    margin: 2rem 4rem;
+  }
+}
+.footer .addresses address a {
   text-decoration: none;
   color: whitesmoke;
   cursor: pointer;
+}
+.footer .addresses address a h4 {
+  color: green;
 }
 .footer .follow-us {
   display: flex;
@@ -41,8 +65,20 @@
   flex-flow: row;
   width: 100vw;
 }
-.footer .follow-us .social-icons .icon {
+.footer .follow-us .social-icons a .icon {
   color: whitesmoke;
+}
+@media screen and (min-width: 768px) {
+  .footer .follow-us .social-icons a .icon {
+    height: 3rem;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1568px) {
+  .footer .follow-us .social-icons a .icon {
+    height: 4rem;
+    width: auto;
+  }
 }
 .copyright {
   display: flex;

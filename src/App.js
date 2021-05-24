@@ -6,7 +6,6 @@ const Home = lazy(() => import('./components/Home'))
 const SolarBasics = lazy(() => import('./components/SolarBasics'))
 const SalesPartner = lazy(() => import('./components/SalesPartner'))
 const Work = lazy(() => import('./components/OurWork'))
-const Contact = lazy(() => import('./components/Contact'))
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route exact path="/solar-basics" component={SolarBasics} />
             <Route exact path="/sales-partner" component={SalesPartner} />
             <Route exact path="/work" component={Work} />
-            <Route exact path="/contact" component={Contact} />
           </Switch>
         </Suspense>
       </Router>
