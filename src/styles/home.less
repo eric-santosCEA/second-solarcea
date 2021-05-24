@@ -4,8 +4,8 @@
   align-items: center;
   flex-flow: column;
   height: 450px;
-  background-image: url('../images/houston-hwy.webp');
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background: #fefae0;
+  background-color: #d8f3dc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -18,7 +18,10 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    color: whitesmoke;
+    color: black;
+    @media screen and (min-width: 768px) {
+      color: whitesmoke;
+    }
   }
   .link {
     display: flex;
@@ -180,7 +183,7 @@
     }
   }
 }
-.steps {
+.testimonials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,9 +191,16 @@
   background-color: whitesmoke;
   @media screen and (min-width: 768px) {
     height: 100vh;
+    blockquote {
+      margin: 2rem 0;
+    }
   }
+
   @media screen and (min-width: 1586px) {
     width: 100vw;
+    blockquote {
+      margin: 2rem 0;
+    }
   }
 }
 
