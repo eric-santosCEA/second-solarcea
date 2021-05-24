@@ -14,7 +14,7 @@ const Home = () => {
       <div className="hero">
         <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">
-          Enroll
+          See If You Qualify
         </Link>
       </div>
 
@@ -84,7 +84,9 @@ const Home = () => {
           take advantage of all these benefits, and more, thereby lowering your
           energy bills and helping the environment!
         </p>
-        <button>Lorem ipsum dolor sit amet.</button>
+        <a href="https://clean-energy-america.estimate.demand-iq.com/">
+          <button>See If You Qualify</button>
+        </a>
 
         <h6>
           Clean Energy America is here to make the transition into solar simple
@@ -138,7 +140,9 @@ const Home = () => {
             Clean energy works for everyone. And it is good for the economy, our
             communities and our environment.
           </p>
-          <button>Lorem ipsum dolor sit amet consectetur.</button>
+          <a href="https://clean-energy-america.estimate.demand-iq.com/">
+            <button>See If You Qualify</button>
+          </a>
         </section>
         <section className="testimonials">
           <h1>Testimonials</h1>
@@ -189,10 +193,13 @@ const Home = () => {
         </section>
       </section>
       <div className="estimate">
-        <h1>No need to wait, get your estimate now</h1>
+        <h1>
+          If you think you qualify, apply today to see how it could work for
+          you.
+        </h1>
 
         <a href="https://clean-energy-america.estimate.demand-iq.com/">
-          <button>Get an estimate</button>
+          <button>See If You Qualify</button>
         </a>
       </div>
       <Footer />
