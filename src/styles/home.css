@@ -124,10 +124,22 @@
   }
 }
 .first-dark-info h1 {
-  font-size: 32px;
+  font-size: 2rem;
+}
+@media screen and (min-width: 1568px) {
+  .first-dark-info h1 {
+    font-size: 4.5rem;
+    padding: 0 4rem;
+  }
 }
 .first-dark-info p {
   margin: 1.5rem 0px;
+}
+@media screen and (min-width: 1568px) {
+  .first-dark-info p {
+    font-size: 2rem;
+    padding: 0 4rem;
+  }
 }
 .second-white-info {
   display: flex;
@@ -148,6 +160,11 @@
     margin: 2rem 0;
   }
 }
+@media screen and (min-width: 1568px) {
+  .second-white-info h4 {
+    font-size: 1.5rem;
+  }
+}
 .second-white-info h1 {
   font-size: 3rem;
   line-height: 3rem;
@@ -157,14 +174,40 @@
     font-size: 4rem;
   }
 }
+@media screen and (min-width: 1568px) {
+  .second-white-info h1 {
+    font-size: 4.5rem;
+    padding: 0 4rem;
+    line-height: 5rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .second-white-info h6 {
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1568px) {
+  .second-white-info h6 {
+    padding: 0 3rem;
+  }
+}
+@media screen and (min-width: 1568px) {
   .second-white-info p {
+    font-size: 2rem;
+    padding: 0 4rem;
+  }
+}
+@media screen and (min-width: 1568px) {
+  .second-white-info a button {
+    width: 20rem;
+    height: 3rem;
     font-size: 1.5rem;
+    font-family: Montserrat-alternates, sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: whitesmoke;
   }
 }
 .second-dark-info {
@@ -185,11 +228,23 @@
 .second-dark-info h1 {
   font-size: 32px;
 }
+@media screen and (min-width: 1568px) {
+  .second-dark-info h1 {
+    font-size: 4.5rem;
+    padding: 0 4rem;
+  }
+}
 .second-dark-info p {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1.5rem 0px;
+}
+@media screen and (min-width: 1568px) {
+  .second-dark-info p {
+    font-size: 2rem;
+    padding: 0 4rem;
+  }
 }
 .third-white-info {
   display: flex;
@@ -205,6 +260,12 @@
 }
 .third-white-info h1 {
   font-size: 3rem;
+}
+@media screen and (min-width: 1568px) {
+  .third-white-info h1 {
+    font-size: 4.5rem;
+    padding: 0 4rem;
+  }
 }
 .third-white-info .images {
   margin: 1rem 0;
@@ -262,4 +323,10 @@
 }
 .estimate h1 {
   margin: 1rem 0;
+}
+@media screen and (min-width: 1568px) {
+  .estimate h1 {
+    font-size: 4.5rem;
+    padding: 0 4rem;
+  }
 }

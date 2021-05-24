@@ -3,6 +3,7 @@ import '../styles/home.css'
 import { Link } from 'react-router-dom'
 import Navlinks from './Navlinks'
 import { IoBusinessOutline } from 'react-icons/io5'
+import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
 
 const Footer = lazy(() => import('./Footer'))
@@ -55,10 +56,10 @@ const Home = () => {
 
       {/* white info section */}
       <section className="second-white-info">
-        <h4>
+        {/* <h4>
           When you make the decision to install clean energy solutions in your
           home, you make a financially or environmentally sound investment.
-        </h4>
+        </h4> */}
         <h1>
           We can help you take advantage of your local utility company’s solar
           program, even if you’re a first-time buyer.
@@ -84,9 +85,7 @@ const Home = () => {
           take advantage of all these benefits, and more, thereby lowering your
           energy bills and helping the environment!
         </p>
-        <a href="https://clean-energy-america.estimate.demand-iq.com/">
-          <button>See If You Qualify</button>
-        </a>
+        <WiWindy size="5rem" />
 
         <h6>
           Clean Energy America is here to make the transition into solar simple
@@ -96,6 +95,9 @@ const Home = () => {
           We empower you to find renewable energy that is better for you and the
           planet.
         </p>
+        <a href="https://clean-energy-america.estimate.demand-iq.com/">
+          <button>See If You Qualify</button>
+        </a>
       </section>
 
       {/* another dark info section */}
