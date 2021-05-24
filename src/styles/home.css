@@ -30,6 +30,11 @@
     color: whitesmoke;
   }
 }
+@media screen and (min-width: 1568px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
 .hero .link {
   display: flex;
   justify-content: center;
@@ -43,6 +48,13 @@
   font-size: 1.5rem;
   color: whitesmoke;
   font-family: Montserrat-alternates, sans-serif;
+}
+@media screen and (min-width: 1568px) {
+  .hero .link {
+    font-size: 2.5rem;
+    width: 22rem;
+    height: 3.5rem;
+  }
 }
 .info {
   display: flex;
@@ -70,6 +82,15 @@
 .first-white-info h1 {
   font-size: 3rem;
   line-height: 3rem;
+}
+.first-white-info p {
+  margin: 1rem 0;
+}
+@media screen and (min-width: 1568px) {
+  .first-white-info {
+    padding: 0 5rem;
+    font-size: 2rem;
+  }
 }
 .first-white-info iframe {
   width: 325px;
