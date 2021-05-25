@@ -59,6 +59,11 @@
 .footer .follow-us h1 {
   margin-top: 1rem;
 }
+@media screen and (min-width: 1568px) {
+  .footer .follow-us h1 {
+    margin: 5rem 0;
+  }
+}
 .footer .follow-us .social-icons {
   display: flex;
   justify-content: space-evenly;
@@ -76,7 +81,7 @@
 }
 @media screen and (min-width: 1568px) {
   .footer .follow-us .social-icons a .icon {
-    height: 4rem;
+    height: 2rem;
     width: auto;
   }
 }
