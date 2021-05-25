@@ -61,10 +61,10 @@ const Home = () => {
           program, even if you’re a first-time buyer.
         </h1>
         <IoBusinessOutline size="5rem" />
-        <h4>
+        <h2>
           You can save money. The sun delivers free, clean energy for your
           electric needs.
-        </h4>
+        </h2>
         <p>
           Solar is certainly an investment, but it’s one that pays off big in
           the long run. Learn about the various ways to obtain your own PV
@@ -72,10 +72,10 @@ const Home = () => {
           your bottom line.
         </p>
         <GrSolaris size="5rem" />
-        <h4>
+        <h2>
           We know that figuring out how to power your home with renewable energy
           can feel like a puzzle. We’re here to make it easier.
-        </h4>
+        </h2>
         <p>
           We’re here to help you make sense of it all. We’ll explain how you can
           take advantage of all these benefits, and more, thereby lowering your
@@ -83,10 +83,10 @@ const Home = () => {
         </p>
         <WiWindy size="5rem" />
 
-        <h4>
+        <h2>
           Clean Energy America is here to make the transition into solar simple
           and easy. We want your experience to be a happy one.
-        </h4>
+        </h2>
         <p>
           We empower you to find renewable energy that is better for you and the
           planet.
@@ -99,12 +99,12 @@ const Home = () => {
       {/* another dark info section */}
       <section className="second-dark-info">
         <h1>We’re here to help you go green and save on your energy bills.</h1>
-        <div>number</div>
-        <h4>Nationwide Offices</h4>
-        <div>number</div>
-        <h4>Years In Business </h4>
-        <div>number</div>
-        <h4>Megawatts Installed</h4>
+        <h2>number</h2>
+        <h2>Nationwide Offices</h2>
+        <h2>number</h2>
+        <h2>Years In Business </h2>
+        <h2>number</h2>
+        <h2>Megawatts Installed</h2>
       </section>
 
       {/* another white info section with images*/}
