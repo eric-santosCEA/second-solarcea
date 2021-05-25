@@ -23,14 +23,10 @@
   margin: 1rem;
   color: black;
 }
-@media screen and (min-width: 768px) {
-  .hero h1 {
-    color: whitesmoke;
-  }
-}
 @media screen and (min-width: 1568px) {
   .hero h1 {
     font-size: 3rem;
+    color: whitesmoke;
   }
 }
 .hero .link {
@@ -49,8 +45,8 @@
 }
 @media screen and (min-width: 1568px) {
   .hero .link {
-    font-size: 2.5rem;
-    width: 22rem;
+    font-size: 1.5rem;
+    width: 15rem;
     height: 3.5rem;
   }
 }
@@ -77,18 +73,18 @@
     height: 100vh;
   }
 }
+@media screen and (min-width: 1568px) {
+  .first-white-info {
+    padding: 0 5rem;
+    font-size: 1.5rem;
+  }
+}
 .first-white-info h1 {
   font-size: 3rem;
   line-height: 3rem;
 }
 .first-white-info p {
   margin: 1rem 0;
-}
-@media screen and (min-width: 1568px) {
-  .first-white-info {
-    padding: 0 5rem;
-    font-size: 2rem;
-  }
 }
 .first-white-info iframe {
   width: 325px;
@@ -100,7 +96,7 @@
     width: 85%;
   }
 }
-@media screen and (min-width: 1586px) {
+@media screen and (min-width: 1568px) {
   .first-white-info iframe {
     height: 55%;
     width: 80%;
@@ -126,8 +122,7 @@
 }
 @media screen and (min-width: 1568px) {
   .first-dark-info h1 {
-    font-size: 4.5rem;
-    padding: 0 4rem;
+    font-size: 2rem;
   }
 }
 .first-dark-info p {
@@ -135,8 +130,8 @@
 }
 @media screen and (min-width: 1568px) {
   .first-dark-info p {
-    font-size: 2rem;
-    padding: 0 4rem;
+    font-size: 1.2rem;
+    padding: 0 15rem;
   }
 }
 .second-white-info {
@@ -174,8 +169,8 @@
 }
 @media screen and (min-width: 1568px) {
   .second-white-info h1 {
-    font-size: 4.5rem;
-    padding: 0 4rem;
+    font-size: 3rem;
+    padding: 0 15rem;
     line-height: 5rem;
   }
 }
@@ -206,6 +201,13 @@
   background-color: #1dd3b0;
   color: whitesmoke;
 }
+@media screen and (min-width: 1568px) {
+  .second-white-info a button {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3.5rem;
+  }
+}
 .second-dark-info {
   display: flex;
   justify-content: center;
@@ -231,7 +233,7 @@
 }
 @media screen and (min-width: 1568px) {
   .second-dark-info h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     padding: 1rem 8rem;
   }
 }
@@ -262,13 +264,13 @@
 }
 @media screen and (min-width: 1568px) {
   .third-white-info h1 {
-    font-size: 4.5rem;
+    font-size: 2rem;
     padding: 1rem 5rem;
   }
 }
 @media screen and (min-width: 1568px) {
   .third-white-info p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .third-white-info .images {
