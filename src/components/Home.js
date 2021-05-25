@@ -33,7 +33,7 @@ const Home = () => {
           on your electric bill!
         </p>
         <iframe
-          src="https://www.youtube.com/embed/7eADbCyZrXY"
+          src="https://www.youtube-nocookie.com/embed/7eADbCyZrXY"
           title="Clean Energy America"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -121,6 +121,16 @@ const Home = () => {
           electricity bill.
         </p>
         <section className="images">
+          <img
+            src="./photos/houston3.jpg"
+            alt="houston home"
+            className="photo"
+          />
+          <img
+            src="./photos/houston4.jpg"
+            alt="houston home"
+            className="photo"
+          />
           <img
             src="./photos/original1.webp"
             alt="solar panel right"
