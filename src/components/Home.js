@@ -178,7 +178,7 @@ const Home = () => {
               about their customers.
             </q>
             <figcaption>
-              <h4>- Juan</h4>
+              <h2>- Juan</h2>
             </figcaption>
           </blockquote>
 
@@ -195,7 +195,7 @@ const Home = () => {
             </q>
 
             <figcaption>
-              <h4>- Eric</h4>
+              <h2>- Eric</h2>
             </figcaption>
           </blockquote>
           <blockquote>
@@ -209,7 +209,7 @@ const Home = () => {
               to friends and family.
             </q>
             <figcaption>
-              <h4>- Tony</h4>
+              <h2>- Tony</h2>
             </figcaption>
           </blockquote>
         </section>
