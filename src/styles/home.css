@@ -350,7 +350,8 @@
 }
 @media screen and (min-width: 1586px) {
   .testimonials {
-    width: 100vw;
+    width: 80vw;
+    margin: 5rem 0;
   }
   .testimonials blockquote {
     margin: 2rem 5rem;
