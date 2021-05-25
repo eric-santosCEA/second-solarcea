@@ -4,7 +4,7 @@
   align-items: center;
   flex-flow: column;
   height: 450px;
-  background: #fefae0;
+  background: #1dd3b0;
 }
 @media screen and (min-width: 1586px) {
   .hero {
