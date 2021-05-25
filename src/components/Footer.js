@@ -39,31 +39,31 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiFacebook className="icon" />
+              <FiFacebook className="icon" aria-label="facebook" />
             </a>
             <a
               href="https://www.instagram.com/cleanenergyamerica/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiInstagram className="icon" />
+              <FiInstagram className="icon" aria-label="instagram" />
             </a>
             <a
               href="https://www.linkedin.com/company/clean-energy-america/mycompany/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiLinkedin className="icon" />
+              <FiLinkedin className="icon" aria-label="linkedin" />
             </a>
             <a
               href="mailto:support@joincea.com?subject=website referral"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiMail className="icon" />
+              <FiMail className="icon" aria-label="email" />
             </a>
             <a href="tel:915-201-2631">
-              <FiPhone className="icon" />
+              <FiPhone className="icon" aria-label="phone number" />
             </a>
           </div>
         </div>
