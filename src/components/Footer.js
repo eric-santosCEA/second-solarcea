@@ -17,20 +17,18 @@ const Footer = () => {
           <address>
             <h2>EL Paso, TX</h2>
             <h4>6600 N Mesa St STE 502, El Paso, TX 79912</h4>
-            <h4>Phone: (915) 201-2631</h4>
             <a href="mailto:jim@rock.com">
-              <h4>support@joincea.com</h4>
+              <h4>Email: support@joincea.com</h4>
             </a>
-            <a href="tel:+13115552368">(311) 555-2368</a>
+            <a href="tel:+13115552368">Phone: (311) 555-2368</a>
           </address>
           <address>
             <h2>Houston, TX</h2>
             <h4>13105 Northwest Freeway, STE 1260 Houston, TX 77040</h4>
-            <h4>Phone: (915) 201-2631</h4>
             <a href="mailto:jim@rock.com">
-              <h4>support@joincea.com</h4>
+              <h4>Email: support@joincea.com</h4>
             </a>
-            <a href="tel:+13115552368">(311) 555-2368</a>
+            <a href="tel:+13115552368">Phone: (311) 555-2368</a>
           </address>
         </div>
         <div className="follow-us">
