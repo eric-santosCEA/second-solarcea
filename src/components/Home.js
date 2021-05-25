@@ -121,36 +121,50 @@ const Home = () => {
             src="./photos/houston3.webp"
             alt="houston home"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/houston4.webp"
             alt="houston home"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/original1.webp"
             alt="solar panel right"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/original2.webp"
             alt="solar panel stand"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/original3.webp"
             alt="rooftop panels"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/original4.webp"
             alt="cloudy sky panels"
             className="photo"
+            height="399"
+            width="300"
           />
           <img
             src="./photos/original5.webp"
             alt="houston roof"
             className="photo"
+            height="399"
+            width="300"
           />
         </section>
         <section className="banner">
