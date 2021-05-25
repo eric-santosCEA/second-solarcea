@@ -56,19 +56,15 @@ const Home = () => {
 
       {/* white info section */}
       <section className="second-white-info">
-        {/* <h4>
-          When you make the decision to install clean energy solutions in your
-          home, you make a financially or environmentally sound investment.
-        </h4> */}
         <h1>
           We can help you take advantage of your local utility company’s solar
           program, even if you’re a first-time buyer.
         </h1>
         <IoBusinessOutline size="5rem" />
-        <h6>
+        <h4>
           You can save money. The sun delivers free, clean energy for your
           electric needs.
-        </h6>
+        </h4>
         <p>
           Solar is certainly an investment, but it’s one that pays off big in
           the long run. Learn about the various ways to obtain your own PV
@@ -76,10 +72,10 @@ const Home = () => {
           your bottom line.
         </p>
         <GrSolaris size="5rem" />
-        <h6>
+        <h4>
           We know that figuring out how to power your home with renewable energy
           can feel like a puzzle. We’re here to make it easier.
-        </h6>
+        </h4>
         <p>
           We’re here to help you make sense of it all. We’ll explain how you can
           take advantage of all these benefits, and more, thereby lowering your
@@ -87,10 +83,10 @@ const Home = () => {
         </p>
         <WiWindy size="5rem" />
 
-        <h6>
+        <h4>
           Clean Energy America is here to make the transition into solar simple
           and easy. We want your experience to be a happy one.
-        </h6>
+        </h4>
         <p>
           We empower you to find renewable energy that is better for you and the
           planet.
