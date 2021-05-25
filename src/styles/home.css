@@ -8,7 +8,7 @@
 }
 @media screen and (min-width: 1586px) {
   .hero {
-    background-image: url('../images/houston.jpg');
+    background-image: url('../images/houston.webp');
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -300,7 +300,7 @@
   flex-flow: column;
   height: 100vh;
   margin: 1rem 0;
-  background-image: url('../images/flowers.jpg');
+  background-image: url('../images/flowers.webp');
   background-color: #cccccc;
   /* Used if the image is unavailable */
   background-position: center;
