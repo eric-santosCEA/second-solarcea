@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="addresses">
           <address>
             <h2>EL Paso, TX</h2>
-            <h4>6600 N Mesa St STE 502, El Paso, TX 79912</h4>
+            <h3>6600 N Mesa St STE 502, El Paso, TX 79912</h3>
             <a href="mailto:jim@rock.com">
               <h4>Email: support@joincea.com</h4>
             </a>
@@ -24,7 +24,7 @@ const Footer = () => {
           </address>
           <address>
             <h2>Houston, TX</h2>
-            <h4>13105 Northwest Freeway, STE 1260 Houston, TX 77040</h4>
+            <h3>13105 Northwest Freeway, STE 1260 Houston, TX 77040</h3>
             <a href="mailto:jim@rock.com">
               <h4>Email: support@joincea.com</h4>
             </a>
