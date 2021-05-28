@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom'
 import { BiMenuAltRight } from 'react-icons/bi'
 import '../styles/navlinks.css'
 
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: '-100%' },
+}
+
 const Navlinks = () => {
   const [active, setActive] = useState(false)
   const handleClick = () => {
@@ -11,10 +16,19 @@ const Navlinks = () => {
   return (
     <>
       <nav>
-        <Link to="/">
-          <img src="./photos/solar-long-logo50.png" alt="logo" height="50" />
-        </Link>
-        <div className={active ? 'links open' : 'links'}>
+        <div className="navbar">
+          <Link to="/">
+            <img src="./photos/solar-long-logo50.png" alt="logo" height="50" />
+          </Link>
+          <div className="icon">
+            <BiMenuAltRight onClick={handleClick} size="3rem" />
+          </div>
+        </div>
+        <div
+          className={active ? 'open' : 'links'}
+          animate={active ? 'open' : 'closed'}
+          variants={variants}
+        >
           <Link to="/" className="link">
             <h1>Home</h1>
           </Link>
@@ -36,9 +50,6 @@ const Navlinks = () => {
           >
             <h1>Careers</h1>
           </a>
-        </div>
-        <div className="icon">
-          <BiMenuAltRight onClick={handleClick} size="3rem" />
         </div>
       </nav>
     </>

@@ -1,29 +1,28 @@
 nav {
+  background-color: whitesmoke;
+}
+nav .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-flow: row wrap;
-  background-color: whitesmoke;
+  align-items: center;
+  flex-flow: row;
 }
 nav .links {
   display: none;
-  clip-path: circle(100px at 90% -10%);
-  transition: all 1s ease-out;
 }
-nav .links.open {
+nav .open {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
   flex-flow: column;
-  clip-path: circle(200% at 90% -10%);
-  color: whitesmoke;
+  color: black;
+  height: 100vh;
 }
-nav .links.open .link {
+nav .open .link {
   text-decoration: none;
 }
-nav .links.open .link h1 {
-  color: whitesmoke;
+nav .open .link h1 {
+  color: black;
 }
 nav .icon {
   color: black;
