@@ -3,7 +3,7 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
   flex-flow: row wrap;
-  background-color: #2e2e2e;
+  background-color: whitesmoke;
 }
 nav .links {
   display: none;
@@ -26,5 +26,5 @@ nav .links.open .link h1 {
   color: whitesmoke;
 }
 nav .icon {
-  color: whitesmoke;
+  color: black;
 }

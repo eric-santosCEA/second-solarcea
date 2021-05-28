@@ -12,7 +12,7 @@ const Navlinks = () => {
     <>
       <nav>
         <Link to="/">
-          <img src="./photos/logo.webp" alt="logo" height="50" width="50" />
+          <img src="./photos/solar-long-logo50.png" alt="logo" height="50" />
         </Link>
         <div className={active ? 'links open' : 'links'}>
           <Link to="/" className="link">

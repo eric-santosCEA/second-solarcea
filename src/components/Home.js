@@ -5,6 +5,7 @@ import Navlinks from './Navlinks'
 import { IoBusinessOutline } from 'react-icons/io5'
 import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
+import { motion } from 'framer-motion'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -15,7 +16,9 @@ const Home = () => {
       <div className="hero">
         <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">
-          See If You Qualify
+          <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+            <h4>See if you Qualify</h4>
+          </motion.button>
         </Link>
       </div>
 

@@ -33,22 +33,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero .link button {
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  background-color: black;
-  width: 20rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  height: 2rem;
+  width: 10rem;
+  background-color: green;
   color: whitesmoke;
   font-family: Montserrat-alternates, sans-serif;
-}
-@media screen and (min-width: 1568px) {
-  .hero .link {
-    font-size: 1.5rem;
-    width: 15rem;
-    height: 3.5rem;
-  }
 }
 .info {
   display: flex;
