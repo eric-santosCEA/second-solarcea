@@ -47,8 +47,8 @@
   color: whitesmoke;
   cursor: pointer;
 }
-.footer .addresses address a h4 {
-  color: #1dd3b0;
+.footer .addresses address a:hover {
+  color: #7fffd4;
 }
 .footer .follow-us {
   display: flex;
@@ -72,6 +72,9 @@
 }
 .footer .follow-us .social-icons a .icon {
   color: whitesmoke;
+}
+.footer .follow-us .social-icons a .icon:hover {
+  color: aquamarine;
 }
 @media screen and (min-width: 768px) {
   .footer .follow-us .social-icons a .icon {
