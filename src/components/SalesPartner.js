@@ -2,6 +2,7 @@ import React, { lazy } from 'react'
 import '../styles/partner.css'
 import Navlinks from './Navlinks'
 import Button from './Button'
+import { motion } from 'framer-motion'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -9,7 +10,12 @@ const SalesPartner = () => {
   return (
     <>
       <Navlinks />
-      <div className="partner">
+      <motion.div
+        className="partner"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+      >
         <h1>Join Cea</h1>
         <picture>
           <img
@@ -33,7 +39,7 @@ const SalesPartner = () => {
             <Button>Become A Partner</Button>
           </a>
         </section>
-      </div>
+      </motion.div>
       <Footer />
     </>
   )

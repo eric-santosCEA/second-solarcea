@@ -1,14 +1,19 @@
 import React, { lazy } from 'react'
 import '../styles/our-work.css'
 import Navlinks from './Navlinks'
-
+import { motion } from 'framer-motion'
 const Footer = lazy(() => import('./Footer'))
 
 const OurWork = () => {
   return (
     <>
       <Navlinks />
-      <div className="work">
+      <motion.div
+        className="work"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+      >
         <section className="title">Our Work</section>
         <figure>
           <blockquote cite="https://www.huxley.net/bnw/four.html">
@@ -18,8 +23,13 @@ const OurWork = () => {
             </p>
           </blockquote>
         </figure>
-      </div>
-      <div className="images">
+      </motion.div>
+      <motion.div
+        className="images"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+      >
         <picture>
           <img
             src="./photos/houston1.webp"
@@ -85,7 +95,7 @@ const OurWork = () => {
             height="300"
           />
         </picture>
-      </div>
+      </motion.div>
       <Footer />
     </>
   )

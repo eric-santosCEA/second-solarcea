@@ -6,6 +6,7 @@ import Button from './Button'
 import { IoBusinessOutline } from 'react-icons/io5'
 import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
+import { motion } from 'framer-motion'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -13,14 +14,19 @@ const Home = () => {
   return (
     <>
       <Navlinks />
-      <div className="hero">
+      <motion.div
+        className="hero"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+      >
         <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">
           <Button>
             <h4>See if you Qualify</h4>
           </Button>
         </Link>
-      </div>
+      </motion.div>
 
       {/* info section */}
       <section className="first-white-info">

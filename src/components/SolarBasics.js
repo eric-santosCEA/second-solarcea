@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/solar-basics.css'
-
+import { motion } from 'framer-motion'
 import Footer from './Footer'
 import Navlinks from './Navlinks'
 
@@ -8,7 +8,12 @@ const SolarBasics = () => {
   return (
     <>
       <Navlinks />
-      <div className="basics">
+      <motion.div
+        className="basics"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+      >
         <header>
           <h1>Solar Basics</h1>
         </header>
@@ -155,7 +160,7 @@ const SolarBasics = () => {
             </p>
           </section>
         </div>
-      </div>
+      </motion.div>
       <Footer />
     </>
   )
