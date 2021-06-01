@@ -69,7 +69,7 @@ const Home = () => {
           We can help you take advantage of your local utility company’s solar
           program, even if you’re a first-time buyer.
         </h1>
-        <IoBusinessOutline size="5rem" />
+        <IoBusinessOutline size="5rem" className="icon" />
         <h2>
           You can save money. The sun delivers free, clean energy for your
           electric needs.
@@ -80,7 +80,7 @@ const Home = () => {
           system, including great financing options, and how it will all affect
           your bottom line.
         </p>
-        <GrSolaris size="5rem" />
+        <GrSolaris size="5rem" className="icon" />
         <h2>
           We know that figuring out how to power your home with renewable energy
           can feel like a puzzle. We’re here to make it easier.
@@ -90,7 +90,7 @@ const Home = () => {
           take advantage of all these benefits, and more, thereby lowering your
           energy bills and helping the environment!
         </p>
-        <WiWindy size="5rem" />
+        <WiWindy size="5rem" className="icon" />
 
         <h2>
           Clean Energy America is here to make the transition into solar simple

@@ -70,6 +70,11 @@
 .first-white-info p {
   margin: 1rem 0;
 }
+@media screen and (min-width: 1568px) {
+  .first-white-info p {
+    padding: 0 10rem;
+  }
+}
 .first-white-info iframe {
   width: 325px;
   height: 225px;
@@ -131,6 +136,11 @@
     padding: 5rem;
   }
 }
+@media screen and (min-width: 1568px) {
+  .second-white-info h2 {
+    padding: 0 5rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .second-white-info h4 {
     line-height: 3rem;
@@ -158,6 +168,11 @@
     line-height: 5rem;
   }
 }
+@media screen and (min-width: 1568px) {
+  .second-white-info .icon {
+    margin: 2rem 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .second-white-info h6 {
     font-size: 2rem;
@@ -171,7 +186,7 @@
 @media screen and (min-width: 1568px) {
   .second-white-info p {
     font-size: 2rem;
-    padding: 0 4rem;
+    padding: 0 10rem;
   }
 }
 .second-dark-info {
@@ -282,6 +297,11 @@
 }
 .third-white-info .banner p {
   padding: 3rem 5rem;
+}
+@media screen and (min-width: 1568px) {
+  .third-white-info .banner p {
+    padding: 3rem 15rem;
+  }
 }
 .testimonials {
   display: flex;
