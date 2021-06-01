@@ -12,7 +12,13 @@ function App() {
   return (
     <>
       <Router>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense
+          fallback={
+            <div>
+              <h2>Loading...</h2>
+            </div>
+          }
+        >
           <AnimatePresence>
             <Switch>
               <Route exact path="/" component={Home} />
