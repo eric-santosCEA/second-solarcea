@@ -2,10 +2,10 @@ import React, { lazy } from 'react'
 import '../styles/home.css'
 import { Link } from 'react-router-dom'
 import Navlinks from './Navlinks'
+import Button from './Button'
 import { IoBusinessOutline } from 'react-icons/io5'
 import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
-import { motion } from 'framer-motion'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -16,9 +16,9 @@ const Home = () => {
       <div className="hero">
         <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">
-          <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+          <Button>
             <h4>See if you Qualify</h4>
-          </motion.button>
+          </Button>
         </Link>
       </div>
 
@@ -95,7 +95,7 @@ const Home = () => {
           planet.
         </p>
         <a href="https://clean-energy-america.estimate.demand-iq.com/">
-          <button>See If You Qualify</button>
+          <Button>See If You Qualify</Button>
         </a>
       </section>
 
@@ -179,7 +179,7 @@ const Home = () => {
             produce it.
           </p>
           <a href="https://clean-energy-america.estimate.demand-iq.com/">
-            <button>See If You Qualify</button>
+            <Button>See If You Qualify</Button>
           </a>
         </section>
         <section className="testimonials">
@@ -235,7 +235,7 @@ const Home = () => {
         <h1>Apply today to see how it could work for you.</h1>
 
         <a href="https://clean-energy-america.estimate.demand-iq.com/">
-          <button>See If You Qualify</button>
+          <Button>See If You Qualify</Button>
         </a>
       </div>
       <Footer />

@@ -1,0 +1,10 @@
+button {
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+  width: 10rem;
+  background-color: green;
+  color: whitesmoke;
+  font-family: Montserrat-alternates, sans-serif;
+}

@@ -1,6 +1,7 @@
 import React, { lazy } from 'react'
 import '../styles/partner.css'
 import Navlinks from './Navlinks'
+import Button from './Button'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -26,10 +27,10 @@ const SalesPartner = () => {
         </p>
         <section className="buttons">
           <a href="https://clean-energy-america.estimate.demand-iq.com/">
-            <button>See if your property qualifies</button>
+            <Button>See if your property qualifies</Button>
           </a>
           <a href="https://ceadash.com/application/">
-            <button>Become A Partner</button>
+            <Button>Become A Partner</Button>
           </a>
         </section>
       </div>

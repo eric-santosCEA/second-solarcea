@@ -12,22 +12,6 @@
 .partner .buttons {
   margin-bottom: 1rem;
 }
-.partner .buttons a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-.partner .buttons a button {
-  margin: 1rem 0.5rem;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  height: 3rem;
-  background-color: green;
-  color: whitesmoke;
-  font-family: Asap, sans-serif;
-}
 .partner figure blockquote p {
   border-bottom: 1rem;
 }
