@@ -5,6 +5,12 @@
   flex-flow: column;
   height: 450px;
   background: #1dd3b0;
+  background-image: url('../images/sky.webp');
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
 }
 @media screen and (min-width: 1586px) {
   .hero {
