@@ -109,11 +109,11 @@ const Home = () => {
       {/* another dark info section */}
       <section className="second-dark-info">
         <h1>We’re here to help you go green and save on your energy bills.</h1>
-        <h2>number</h2>
-        <h2>Nationwide Offices</h2>
-        <h2>number</h2>
+        <h2>16</h2>
+        <h2>States And Counting</h2>
+        <h2>5+</h2>
         <h2>Years In Business </h2>
-        <h2>number</h2>
+        <h2>30+</h2>
         <h2>Megawatts Installed</h2>
       </section>
 
