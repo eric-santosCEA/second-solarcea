@@ -1,8 +1,18 @@
 .carousel img {
-  height: 60vh;
+  height: 45vh;
+  width: auto;
 }
 @media screen and (min-width: 1058px) {
   .carousel img {
     height: 100vh;
+    width: auto;
+  }
+}
+.rec.rec-arrow {
+  display: none;
+}
+@media screen and (min-width: 1058px) {
+  .rec.rec-arrow {
+    visibility: visible;
   }
 }
