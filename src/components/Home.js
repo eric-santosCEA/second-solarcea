@@ -7,6 +7,7 @@ import { IoBusinessOutline } from 'react-icons/io5'
 import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
 import { motion } from 'framer-motion'
+import CarouselImage from './Carousel'
 
 const Footer = lazy(() => import('./Footer'))
 
@@ -77,7 +78,7 @@ const Home = () => {
         <p>
           Solar is certainly an investment, but it’s one that pays off big in
           the long run. Learn about the various ways to obtain your own PV
-          system, including great financing options, and how it will all affect
+          system, including great financing options, and how it will all benefit
           your bottom line.
         </p>
         <GrSolaris size="5rem" className="icon" />
@@ -126,55 +127,7 @@ const Home = () => {
           electricity bill.
         </p>
         <section className="images">
-          <img
-            src="./photos/houston3.webp"
-            alt="houston home"
-            className="photo"
-            height="300"
-            width="399"
-          />
-          <img
-            src="./photos/houston4.webp"
-            alt="houston home"
-            className="photo"
-            height="300"
-            width="399"
-          />
-          <img
-            src="./photos/original1.webp"
-            alt="solar panel right"
-            className="photo"
-            height="300"
-            width="400"
-          />
-          <img
-            src="./photos/original2.webp"
-            alt="solar panel stand"
-            className="photo"
-            height="300"
-            width="400"
-          />
-          <img
-            src="./photos/original3.webp"
-            alt="rooftop panels"
-            className="photo"
-            height="300"
-            width="400"
-          />
-          <img
-            src="./photos/original4.webp"
-            alt="cloudy sky panels"
-            className="photo"
-            height="300"
-            width="240"
-          />
-          <img
-            src="./photos/original5.webp"
-            alt="houston roof"
-            className="photo"
-            height="300"
-            width="400"
-          />
+          <CarouselImage />
         </section>
         <section className="banner">
           <h1>Solar Energy. You Can Save</h1>
