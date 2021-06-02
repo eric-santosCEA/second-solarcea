@@ -7,8 +7,8 @@ import { IoBusinessOutline } from 'react-icons/io5'
 import { WiWindy } from 'react-icons/wi'
 import { GrSolaris } from 'react-icons/gr'
 import { motion } from 'framer-motion'
-import CarouselImage from './Carousel'
 
+const CarouselImage = lazy(() => import('./Carousel.js'))
 const Footer = lazy(() => import('./Footer'))
 
 const Home = () => {
