@@ -12,22 +12,6 @@ const CarouselImage = () => {
         className="carousel"
       >
         <img
-          srcSet="./photos/houston3.jpg 1024w,
-          ./photos/houston3.webp 300w"
-          sizes="(max-width: 1024px) 300px, 1024px"
-          src="./photos/houston3.jpg"
-          alt="houston home"
-          className="photo"
-        />
-        <img
-          srcSet="./photos/houston4.jpg 1024w,
-          ./photos/houston4.webp 300w"
-          sizes="(max-width: 1024px) 300px, 1024px"
-          src="./photos/houston4.jpg"
-          alt="houston home"
-          className="photo"
-        />
-        <img
           srcSet="./photos/original1.png 1024w,
           ./photos/original1.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
@@ -35,22 +19,22 @@ const CarouselImage = () => {
           alt="houston home"
           className="photo"
         />
-
         <img
-          src="./photos/original2.webp"
-          alt="solar panel stand"
+          srcSet="./photos/original2.png 1024w,
+          ./photos/original2.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original2.png"
+          alt="houston home"
           className="photo"
-          height="300"
-          width="400"
         />
         <img
-          src="./photos/original3.webp"
-          alt="rooftop panels"
+          srcSet="./photos/original3.jpg 1024w,
+          ./photos/original3.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original3.jpg"
+          alt="houston home"
           className="photo"
-          height="300"
-          width="400"
         />
-
         <img
           srcSet="./photos/original4.png 1024w,
           ./photos/original4.webp 300w"
@@ -64,6 +48,46 @@ const CarouselImage = () => {
           ./photos/original5.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original5.png"
+          alt="houston home"
+          className="photo"
+        />
+        <img
+          srcSet="./photos/original6.png 1024w,
+          ./photos/original6.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original6.png"
+          alt="houston home"
+          className="photo"
+        />
+        <img
+          srcSet="./photos/original7.png 1024w,
+          ./photos/original7.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original7.png"
+          alt="houston home"
+          className="photo"
+        />
+        <img
+          srcSet="./photos/original8.png 1024w,
+          ./photos/original8.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original8.png"
+          alt="houston home"
+          className="photo"
+        />
+        <img
+          srcSet="./photos/original9.jpg 1024w,
+          ./photos/original9.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original9.jpg"
+          alt="houston home"
+          className="photo"
+        />
+        <img
+          srcSet="./photos/original10.png 1024w,
+          ./photos/original10.webp 300w"
+          sizes="(max-width: 1024px) 300px, 1024px"
+          src="./photos/original10.png"
           alt="houston home"
           className="photo"
         />

@@ -264,17 +264,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
-  height: 100%;
   width: 100vw;
+  height: 90vh;
 }
 @media screen and (min-width: 1568px) {
   .third-white-info .images {
     flex-flow: row wrap;
+    height: 100%;
+    width: 80%;
   }
-}
-.third-white-info .images .photo {
-  margin: 1rem 0;
 }
 @media screen and (min-width: 1568px) {
   .third-white-info .images .photo {
