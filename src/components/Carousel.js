@@ -19,6 +19,8 @@ const CarouselImage = () => {
           src="./photos/original1.png"
           alt="solar panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original2.png 1024w,
@@ -27,6 +29,8 @@ const CarouselImage = () => {
           src="./photos/original2.png"
           alt="solar panels on stand"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original3.jpg 1024w,
@@ -35,6 +39,8 @@ const CarouselImage = () => {
           src="./photos/original3.jpg"
           alt="roof panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original4.png 1024w,
@@ -43,6 +49,8 @@ const CarouselImage = () => {
           src="./photos/original4.png"
           alt="second roof panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original5.png 1024w,
@@ -51,6 +59,8 @@ const CarouselImage = () => {
           src="./photos/original5.png"
           alt="home panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original6.png 1024w,
@@ -59,6 +69,8 @@ const CarouselImage = () => {
           src="./photos/original6.png"
           alt="panel scaffolding"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original7.png 1024w,
@@ -67,6 +79,8 @@ const CarouselImage = () => {
           src="./photos/original7.png"
           alt="completed panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original8.png 1024w,
@@ -75,6 +89,8 @@ const CarouselImage = () => {
           src="./photos/original8.png"
           alt="houston complete"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original9.jpg 1024w,
@@ -83,6 +99,8 @@ const CarouselImage = () => {
           src="./photos/original9.jpg"
           alt="industrial panels"
           className="photo"
+          height="500"
+          width="500"
         />
         <img
           srcSet="./photos/original10.png 1024w,
@@ -91,6 +109,8 @@ const CarouselImage = () => {
           src="./photos/original10.png"
           alt="industrial-panels-two"
           className="photo"
+          height="500"
+          width="500"
         />
       </Carousel>
     </>
