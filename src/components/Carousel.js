@@ -17,7 +17,7 @@ const CarouselImage = () => {
           ./photos/original1.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original1.png"
-          alt="houston home"
+          alt="solar panels"
           className="photo"
         />
         <img
@@ -25,7 +25,7 @@ const CarouselImage = () => {
           ./photos/original2.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original2.png"
-          alt="houston home"
+          alt="solar panels on stand"
           className="photo"
         />
         <img
@@ -33,7 +33,7 @@ const CarouselImage = () => {
           ./photos/original3.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original3.jpg"
-          alt="houston home"
+          alt="roof panels"
           className="photo"
         />
         <img
@@ -41,7 +41,7 @@ const CarouselImage = () => {
           ./photos/original4.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original4.png"
-          alt="houston home"
+          alt="second roof panels"
           className="photo"
         />
         <img
@@ -49,7 +49,7 @@ const CarouselImage = () => {
           ./photos/original5.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original5.png"
-          alt="houston home"
+          alt="home panels"
           className="photo"
         />
         <img
@@ -57,7 +57,7 @@ const CarouselImage = () => {
           ./photos/original6.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original6.png"
-          alt="houston home"
+          alt="panel scaffolding"
           className="photo"
         />
         <img
@@ -65,7 +65,7 @@ const CarouselImage = () => {
           ./photos/original7.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original7.png"
-          alt="houston home"
+          alt="completed panels"
           className="photo"
         />
         <img
@@ -73,7 +73,7 @@ const CarouselImage = () => {
           ./photos/original8.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original8.png"
-          alt="houston home"
+          alt="houston complete"
           className="photo"
         />
         <img
@@ -81,7 +81,7 @@ const CarouselImage = () => {
           ./photos/original9.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original9.jpg"
-          alt="houston home"
+          alt="industrial panels"
           className="photo"
         />
         <img
@@ -89,7 +89,7 @@ const CarouselImage = () => {
           ./photos/original10.webp 300w"
           sizes="(max-width: 1024px) 300px, 1024px"
           src="./photos/original10.png"
-          alt="houston home"
+          alt="industrial-panels-two"
           className="photo"
         />
       </Carousel>
