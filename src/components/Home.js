@@ -17,9 +17,9 @@ const Home = () => {
       <Navlinks />
       <motion.div
         className="hero"
-        initial={{ opacity: 0, y: -50 }}
+        initial={{ opacity: 0, y: -180 }}
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0 }}
+        transition={{ ease: 'easeInOut', duration: 1 }}
       >
         <h1>Our goal is to protect our environment for generations to come.</h1>
         <Link to="/sales-partner" className="link">

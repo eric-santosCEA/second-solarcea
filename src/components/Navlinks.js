@@ -30,6 +30,7 @@ const Navlinks = () => {
         className={active ? 'open' : 'navlinks'}
         animate={active ? 'open' : 'closed'}
         variants={variants}
+        transition={{ ease: 'easeInOut', duration: 1 }}
       >
         <Link to="/" className="navlink">
           <h1>Home</h1>
